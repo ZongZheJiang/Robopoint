@@ -1,0 +1,43 @@
+[0.243s] Invoking command in '/home/ddq2/interbotix_ws/build/interbotix_common_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ddq2/realsense_ws/install/detection_visualizer:/home/ddq2/realsense_ws/install/distance_calculation:/home/ddq2/interbotix_ws/install/interbotix_xs_modules:/home/ddq2/interbotix_ws/install/interbotix_perception_modules:/home/ddq2/interbotix_ws/install/interbotix_common_modules:/home/ddq2/interbotix_ws/install/image_projector:/opt/ros/humble _=/usr/bin/env /home/ddq2/.local/bin/cmake --build /home/ddq2/interbotix_ws/build/interbotix_common_sim -- -j16 -l16
+[0.594s] Invoked command in '/home/ddq2/interbotix_ws/build/interbotix_common_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ddq2/realsense_ws/install/detection_visualizer:/home/ddq2/realsense_ws/install/distance_calculation:/home/ddq2/interbotix_ws/install/interbotix_xs_modules:/home/ddq2/interbotix_ws/install/interbotix_perception_modules:/home/ddq2/interbotix_ws/install/interbotix_common_modules:/home/ddq2/interbotix_ws/install/image_projector:/opt/ros/humble _=/usr/bin/env /home/ddq2/.local/bin/cmake --build /home/ddq2/interbotix_ws/build/interbotix_common_sim -- -j16 -l16
+[0.595s] Invoking command in '/home/ddq2/interbotix_ws/build/interbotix_common_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ddq2/realsense_ws/install/detection_visualizer:/home/ddq2/realsense_ws/install/distance_calculation:/home/ddq2/interbotix_ws/install/interbotix_xs_modules:/home/ddq2/interbotix_ws/install/interbotix_perception_modules:/home/ddq2/interbotix_ws/install/interbotix_common_modules:/home/ddq2/interbotix_ws/install/image_projector:/opt/ros/humble _=/usr/bin/env /home/ddq2/.local/bin/cmake --install /home/ddq2/interbotix_ws/build/interbotix_common_sim
+[0.698s] -- Install configuration: ""
+[0.698s] -- Up-to-date: /home/ddq2/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/models
+[0.698s] -- Up-to-date: /home/ddq2/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/models/VisionKit
+[0.698s] -- Up-to-date: /home/ddq2/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/models/VisionKit/VisionKit.sdf
+[0.699s] -- Up-to-date: /home/ddq2/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/models/VisionKit/model.config
+[0.699s] -- Up-to-date: /home/ddq2/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/models/VisionKit/stand.stl
+[0.699s] -- Up-to-date: /home/ddq2/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/models/TrossenRoboticsOfficeBuilding
+[0.699s] -- Up-to-date: /home/ddq2/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/models/TrossenRoboticsOfficeBuilding/model.config
+[0.699s] -- Up-to-date: /home/ddq2/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/models/TrossenRoboticsOfficeBuilding/TrossenRoboticsOfficeBuilding.sdf
+[0.699s] -- Up-to-date: /home/ddq2/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/models/RealSenseD415
+[0.699s] -- Up-to-date: /home/ddq2/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/models/RealSenseD415/model.config
+[0.699s] -- Up-to-date: /home/ddq2/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/models/RealSenseD415/RealSenseD415.sdf
+[0.699s] -- Up-to-date: /home/ddq2/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/models/RealSenseD415/camera.stl
+[0.699s] -- Up-to-date: /home/ddq2/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/worlds
+[0.699s] -- Up-to-date: /home/ddq2/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/worlds/vision_kit.world
+[0.699s] -- Up-to-date: /home/ddq2/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/worlds/interbotix.world
+[0.699s] -- Up-to-date: /home/ddq2/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/media
+[0.699s] -- Up-to-date: /home/ddq2/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/media/interbotix_black.png
+[0.700s] -- Up-to-date: /home/ddq2/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/media/materials
+[0.700s] -- Up-to-date: /home/ddq2/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/media/materials/textures
+[0.700s] -- Up-to-date: /home/ddq2/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/media/materials/textures/interbotix_black.png
+[0.700s] -- Up-to-date: /home/ddq2/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/media/materials/scripts
+[0.700s] -- Up-to-date: /home/ddq2/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/media/materials/scripts/interbotix_black.material
+[0.700s] -- Up-to-date: /home/ddq2/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/media/materials/scripts/interbotix_texture.gazebo
+[0.700s] -- Up-to-date: /home/ddq2/interbotix_ws/install/interbotix_common_sim/share/ament_index/resource_index/package_run_dependencies/interbotix_common_sim
+[0.700s] -- Up-to-date: /home/ddq2/interbotix_ws/install/interbotix_common_sim/share/ament_index/resource_index/parent_prefix_path/interbotix_common_sim
+[0.700s] -- Up-to-date: /home/ddq2/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/environment/ament_prefix_path.sh
+[0.700s] -- Up-to-date: /home/ddq2/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/environment/ament_prefix_path.dsv
+[0.701s] -- Up-to-date: /home/ddq2/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/environment/path.sh
+[0.701s] -- Up-to-date: /home/ddq2/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/environment/path.dsv
+[0.701s] -- Up-to-date: /home/ddq2/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/local_setup.bash
+[0.701s] -- Up-to-date: /home/ddq2/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/local_setup.sh
+[0.701s] -- Up-to-date: /home/ddq2/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/local_setup.zsh
+[0.701s] -- Up-to-date: /home/ddq2/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/local_setup.dsv
+[0.701s] -- Up-to-date: /home/ddq2/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/package.dsv
+[0.701s] -- Up-to-date: /home/ddq2/interbotix_ws/install/interbotix_common_sim/share/ament_index/resource_index/packages/interbotix_common_sim
+[0.701s] -- Up-to-date: /home/ddq2/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/cmake/interbotix_common_simConfig.cmake
+[0.701s] -- Up-to-date: /home/ddq2/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/cmake/interbotix_common_simConfig-version.cmake
+[0.701s] -- Up-to-date: /home/ddq2/interbotix_ws/install/interbotix_common_sim/share/interbotix_common_sim/package.xml
+[0.751s] Invoked command in '/home/ddq2/interbotix_ws/build/interbotix_common_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ddq2/realsense_ws/install/detection_visualizer:/home/ddq2/realsense_ws/install/distance_calculation:/home/ddq2/interbotix_ws/install/interbotix_xs_modules:/home/ddq2/interbotix_ws/install/interbotix_perception_modules:/home/ddq2/interbotix_ws/install/interbotix_common_modules:/home/ddq2/interbotix_ws/install/image_projector:/opt/ros/humble _=/usr/bin/env /home/ddq2/.local/bin/cmake --install /home/ddq2/interbotix_ws/build/interbotix_common_sim

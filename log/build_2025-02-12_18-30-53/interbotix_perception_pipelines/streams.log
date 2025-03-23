@@ -1,0 +1,159 @@
+[0.014s] Invoking command in '/home/ddq2/interbotix_ws/build/interbotix_perception_pipelines': AMENT_PREFIX_PATH=/home/ddq2/interbotix_ws/install/interbotix_perception_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ddq2/interbotix_ws/install/interbotix_perception_msgs:/home/ddq2/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/ddq2/interbotix_ws/install/interbotix_perception_msgs/lib:/home/ddq2/apriltag_ws/install/apriltag_ros/lib:/usr/local/cuda-12.4/lib64:/usr/local/cuda-12.4/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ddq2/interbotix_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} _=/usr/bin/env /home/ddq2/.local/bin/cmake /home/ddq2/interbotix_ws/src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_pipelines -DCMAKE_INSTALL_PREFIX=/home/ddq2/interbotix_ws/install/interbotix_perception_pipelines
+[0.154s] -- The C compiler identification is GNU 11.4.0
+[0.254s] -- The CXX compiler identification is GNU 11.4.0
+[0.281s] -- Detecting C compiler ABI info
+[0.423s] -- Detecting C compiler ABI info - done
+[0.469s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.470s] -- Detecting C compile features
+[0.470s] -- Detecting C compile features - done
+[0.484s] -- Detecting CXX compiler ABI info
+[0.568s] -- Detecting CXX compiler ABI info - done
+[0.589s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.589s] -- Detecting CXX compile features
+[0.590s] -- Detecting CXX compile features - done
+[0.599s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.869s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[1.000s] -- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[1.003s] -- Found interbotix_perception_msgs: 0.0.0 (/home/ddq2/interbotix_ws/install/interbotix_perception_msgs/share/interbotix_perception_msgs/cmake)
+[1.102s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.112s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.126s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.146s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.173s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.264s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[1.301s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.303s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.363s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[1.386s] -- Found FastRTPS: /opt/ros/humble/include
+[1.422s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.429s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.477s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.478s] -- Found Threads: TRUE
+[1.551s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:146 (find_package):
+[1.551s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[1.551s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[1.551s]   cmake_policy command to set the policy and suppress this warning.
+[1.551s] 
+[1.551s]   CMake variable EIGEN_ROOT is set to:
+[1.551s] 
+[1.551s]     /usr/include/eigen3
+[1.552s] 
+[1.552s]   For compatibility, find_package is ignoring the variable, but code in a
+[1.552s]   .cmake module might still use it.
+[1.552s] Call Stack (most recent call first):
+[1.552s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:299 (find_eigen)
+[1.552s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[1.552s]   /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.552s]   /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[1.552s]   CMakeLists.txt:19 (find_package)
+[1.552s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.552s] [0m
+[1.554s] -- Checking for module 'eigen3'
+[1.563s] --   Found eigen3, version 3.4.0
+[1.582s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1")
+[1.582s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.601s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:44 (find_package):
+[1.601s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[1.601s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[1.601s]   cmake_policy command to set the policy and suppress this warning.
+[1.601s] 
+[1.601s]   CMake variable FLANN_ROOT is set to:
+[1.601s] 
+[1.601s]     /usr
+[1.601s] 
+[1.601s]   For compatibility, find_package is ignoring the variable, but code in a
+[1.601s]   .cmake module might still use it.
+[1.601s] Call Stack (most recent call first):
+[1.601s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:256 (find_package)
+[1.602s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:301 (find_flann)
+[1.602s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[1.602s]   /opt/ros/humble/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.602s]   /opt/ros/humble/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[1.602s]   CMakeLists.txt:19 (find_package)
+[1.602s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.602s] [0m
+[1.613s] -- Checking for module 'flann'
+[1.622s] --   Found flann, version 1.9.1
+[1.649s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so
+[1.649s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.470s] -- Checking for module 'libusb-1.0'
+[2.480s] --   Found libusb-1.0, version 1.0.25
+[2.503s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so
+[2.504s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.542s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.755s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.760s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.766s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.975s] -- Found Qhull version 8.0.2
+[3.184s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.390s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so
+[3.391s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so
+[3.392s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so
+[3.393s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so
+[3.394s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so
+[3.395s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so
+[3.395s] -- Found PCL_2D: /usr/include/pcl-1.12
+[3.395s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12
+[3.396s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so
+[3.397s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so
+[3.398s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so
+[3.399s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so
+[3.400s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so
+[3.401s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so
+[3.402s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so
+[3.403s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so
+[3.404s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so
+[3.405s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so
+[3.406s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so
+[3.407s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so
+[3.408s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12
+[3.408s] -- Found PCL_MODELER: /usr/include/pcl-1.12
+[3.409s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12
+[3.409s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so
+[3.410s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so
+[3.414s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[3.448s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.449s] -- Found Eigen3: TRUE (found version "3.4.0")
+[3.449s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.546s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[3.556s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[3.587s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.651s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.652s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.652s] -- Configured cppcheck include dirs: 
+[3.652s] -- Configured cppcheck exclude dirs and/or files: 
+[3.652s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.652s] -- Configured cpplint exclude dirs and/or files: 
+[3.653s] -- Added test 'lint_cmake' to check CMake code style
+[3.653s] -- Added test 'uncrustify' to check C / C++ code style
+[3.653s] -- Configured uncrustify additional arguments: 
+[3.654s] -- Added test 'xmllint' to check XML markup files
+[3.655s] -- Configuring done (3.5s)
+[3.716s] -- Generating done (0.0s)
+[3.723s] -- Build files have been written to: /home/ddq2/interbotix_ws/build/interbotix_perception_pipelines
+[3.750s] Invoked command in '/home/ddq2/interbotix_ws/build/interbotix_perception_pipelines' returned '0': AMENT_PREFIX_PATH=/home/ddq2/interbotix_ws/install/interbotix_perception_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ddq2/interbotix_ws/install/interbotix_perception_msgs:/home/ddq2/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/ddq2/interbotix_ws/install/interbotix_perception_msgs/lib:/home/ddq2/apriltag_ws/install/apriltag_ros/lib:/usr/local/cuda-12.4/lib64:/usr/local/cuda-12.4/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ddq2/interbotix_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} _=/usr/bin/env /home/ddq2/.local/bin/cmake /home/ddq2/interbotix_ws/src/interbotix_ros_toolboxes/interbotix_perception_toolbox/interbotix_perception_pipelines -DCMAKE_INSTALL_PREFIX=/home/ddq2/interbotix_ws/install/interbotix_perception_pipelines
+[3.751s] Invoking command in '/home/ddq2/interbotix_ws/build/interbotix_perception_pipelines': AMENT_PREFIX_PATH=/home/ddq2/interbotix_ws/install/interbotix_perception_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ddq2/interbotix_ws/install/interbotix_perception_msgs:/home/ddq2/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/ddq2/interbotix_ws/install/interbotix_perception_msgs/lib:/home/ddq2/apriltag_ws/install/apriltag_ros/lib:/usr/local/cuda-12.4/lib64:/usr/local/cuda-12.4/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ddq2/interbotix_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} _=/usr/bin/env /home/ddq2/.local/bin/cmake --build /home/ddq2/interbotix_ws/build/interbotix_perception_pipelines -- -j16 -l16
+[3.823s] [ 50%] [32mBuilding CXX object CMakeFiles/pointcloud_pipeline.dir/src/pointcloud_pipeline.cpp.o[0m
+[15.505s] [100%] [32m[1mLinking CXX executable pointcloud_pipeline[0m
+[16.730s] [100%] Built target pointcloud_pipeline
+[16.742s] Invoked command in '/home/ddq2/interbotix_ws/build/interbotix_perception_pipelines' returned '0': AMENT_PREFIX_PATH=/home/ddq2/interbotix_ws/install/interbotix_perception_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ddq2/interbotix_ws/install/interbotix_perception_msgs:/home/ddq2/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/ddq2/interbotix_ws/install/interbotix_perception_msgs/lib:/home/ddq2/apriltag_ws/install/apriltag_ros/lib:/usr/local/cuda-12.4/lib64:/usr/local/cuda-12.4/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ddq2/interbotix_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} _=/usr/bin/env /home/ddq2/.local/bin/cmake --build /home/ddq2/interbotix_ws/build/interbotix_perception_pipelines -- -j16 -l16
+[16.743s] Invoking command in '/home/ddq2/interbotix_ws/build/interbotix_perception_pipelines': AMENT_PREFIX_PATH=/home/ddq2/interbotix_ws/install/interbotix_perception_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ddq2/interbotix_ws/install/interbotix_perception_msgs:/home/ddq2/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/ddq2/interbotix_ws/install/interbotix_perception_msgs/lib:/home/ddq2/apriltag_ws/install/apriltag_ros/lib:/usr/local/cuda-12.4/lib64:/usr/local/cuda-12.4/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ddq2/interbotix_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} _=/usr/bin/env /home/ddq2/.local/bin/cmake --install /home/ddq2/interbotix_ws/build/interbotix_perception_pipelines
+[16.791s] -- Install configuration: ""
+[16.791s] -- Installing: /home/ddq2/interbotix_ws/install/interbotix_perception_pipelines/lib/interbotix_perception_pipelines/pointcloud_pipeline
+[16.794s] -- Set non-toolchain portion of runtime path of "/home/ddq2/interbotix_ws/install/interbotix_perception_pipelines/lib/interbotix_perception_pipelines/pointcloud_pipeline" to ""
+[16.794s] -- Installing: /home/ddq2/interbotix_ws/install/interbotix_perception_pipelines/share/ament_index/resource_index/package_run_dependencies/interbotix_perception_pipelines
+[16.794s] -- Installing: /home/ddq2/interbotix_ws/install/interbotix_perception_pipelines/share/ament_index/resource_index/parent_prefix_path/interbotix_perception_pipelines
+[16.794s] -- Installing: /home/ddq2/interbotix_ws/install/interbotix_perception_pipelines/share/interbotix_perception_pipelines/environment/ament_prefix_path.sh
+[16.794s] -- Installing: /home/ddq2/interbotix_ws/install/interbotix_perception_pipelines/share/interbotix_perception_pipelines/environment/ament_prefix_path.dsv
+[16.794s] -- Installing: /home/ddq2/interbotix_ws/install/interbotix_perception_pipelines/share/interbotix_perception_pipelines/environment/path.sh
+[16.794s] -- Installing: /home/ddq2/interbotix_ws/install/interbotix_perception_pipelines/share/interbotix_perception_pipelines/environment/path.dsv
+[16.794s] -- Installing: /home/ddq2/interbotix_ws/install/interbotix_perception_pipelines/share/interbotix_perception_pipelines/local_setup.bash
+[16.794s] -- Installing: /home/ddq2/interbotix_ws/install/interbotix_perception_pipelines/share/interbotix_perception_pipelines/local_setup.sh
+[16.794s] -- Installing: /home/ddq2/interbotix_ws/install/interbotix_perception_pipelines/share/interbotix_perception_pipelines/local_setup.zsh
+[16.794s] -- Installing: /home/ddq2/interbotix_ws/install/interbotix_perception_pipelines/share/interbotix_perception_pipelines/local_setup.dsv
+[16.794s] -- Installing: /home/ddq2/interbotix_ws/install/interbotix_perception_pipelines/share/interbotix_perception_pipelines/package.dsv
+[16.794s] -- Installing: /home/ddq2/interbotix_ws/install/interbotix_perception_pipelines/share/ament_index/resource_index/packages/interbotix_perception_pipelines
+[16.794s] -- Installing: /home/ddq2/interbotix_ws/install/interbotix_perception_pipelines/share/interbotix_perception_pipelines/cmake/interbotix_perception_pipelinesConfig.cmake
+[16.794s] -- Installing: /home/ddq2/interbotix_ws/install/interbotix_perception_pipelines/share/interbotix_perception_pipelines/cmake/interbotix_perception_pipelinesConfig-version.cmake
+[16.794s] -- Installing: /home/ddq2/interbotix_ws/install/interbotix_perception_pipelines/share/interbotix_perception_pipelines/package.xml
+[16.804s] Invoked command in '/home/ddq2/interbotix_ws/build/interbotix_perception_pipelines' returned '0': AMENT_PREFIX_PATH=/home/ddq2/interbotix_ws/install/interbotix_perception_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ddq2/interbotix_ws/install/interbotix_perception_msgs:/home/ddq2/apriltag_ws/install/apriltag_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/ddq2/interbotix_ws/install/interbotix_perception_msgs/lib:/home/ddq2/apriltag_ws/install/apriltag_ros/lib:/usr/local/cuda-12.4/lib64:/usr/local/cuda-12.4/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ddq2/interbotix_ws/install/interbotix_perception_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} _=/usr/bin/env /home/ddq2/.local/bin/cmake --install /home/ddq2/interbotix_ws/build/interbotix_perception_pipelines

@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-9ff4b95b62188760a508.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "robopoint_interfaces__py",
+					"jsonFile" : "directory-robopoint_interfaces__py-68e8200f1a33c82d115d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/ddq2/interbotix_ws/build/robopoint_interfaces/robopoint_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "robopoint_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_robopoint_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_robopoint_interfaces_egg-d08b8779bd5f1b7a5673.json",
+					"name" : "ament_cmake_python_build_robopoint_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_robopoint_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_robopoint_interfaces-246f6e5ada4732410da1.json",
+					"name" : "ament_cmake_python_copy_robopoint_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robopoint_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robopoint_interfaces-0e33ed05db9c144474aa.json",
+					"name" : "robopoint_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robopoint_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robopoint_interfaces__cpp-e176c9d305c181d8aca2.json",
+					"name" : "robopoint_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "robopoint_interfaces__py::@08ab14b62497f2c34155",
+					"jsonFile" : "target-robopoint_interfaces__py-0e568204ab4f63ce8b28.json",
+					"name" : "robopoint_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robopoint_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robopoint_interfaces__rosidl_generator_c-6635e9c1f91125f718c4.json",
+					"name" : "robopoint_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robopoint_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robopoint_interfaces__rosidl_generator_py-c3d788b41aaed6275323.json",
+					"name" : "robopoint_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robopoint_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robopoint_interfaces__rosidl_typesupport_c-5e03eb9253885277d23c.json",
+					"name" : "robopoint_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robopoint_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robopoint_interfaces__rosidl_typesupport_c__pyext-c34c3ffb68157c03f4a6.json",
+					"name" : "robopoint_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robopoint_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robopoint_interfaces__rosidl_typesupport_cpp-adb8b0670f13486390fd.json",
+					"name" : "robopoint_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robopoint_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robopoint_interfaces__rosidl_typesupport_fastrtps_c-ce66f61457629620c971.json",
+					"name" : "robopoint_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robopoint_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robopoint_interfaces__rosidl_typesupport_fastrtps_c__pyext-b295891e3a27ebb75a9d.json",
+					"name" : "robopoint_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robopoint_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robopoint_interfaces__rosidl_typesupport_fastrtps_cpp-0f4d8a73a95c52303f2e.json",
+					"name" : "robopoint_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robopoint_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robopoint_interfaces__rosidl_typesupport_introspection_c-135670733563e7a55ff5.json",
+					"name" : "robopoint_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robopoint_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robopoint_interfaces__rosidl_typesupport_introspection_c__pyext-e9c95d5c00a8090537d4.json",
+					"name" : "robopoint_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robopoint_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robopoint_interfaces__rosidl_typesupport_introspection_cpp-01cb0f7f8d0fb09f58e1.json",
+					"name" : "robopoint_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robopoint_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robopoint_interfaces_uninstall-fff4c2250e3714262a6a.json",
+					"name" : "robopoint_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e2cd1ff906d879eedb77.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ddq2/interbotix_ws/build/robopoint_interfaces",
+		"source" : "/home/ddq2/interbotix_ws/src/robopoint_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

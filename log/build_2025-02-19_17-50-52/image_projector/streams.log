@@ -1,0 +1,37 @@
+[0.742s] Invoking command in '/home/ddq2/interbotix_ws/src/image_projector': PYTHONPATH=/home/ddq2/interbotix_ws/build/image_projector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ddq2/interbotix_ws/install/image_projector/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/image_projector build --build-base /home/ddq2/interbotix_ws/build/image_projector/build install --record /home/ddq2/interbotix_ws/build/image_projector/install.log --single-version-externally-managed install_data
+[0.918s] running egg_info
+[0.918s] creating ../../build/image_projector/image_projector.egg-info
+[0.930s] writing ../../build/image_projector/image_projector.egg-info/PKG-INFO
+[0.930s] writing dependency_links to ../../build/image_projector/image_projector.egg-info/dependency_links.txt
+[0.930s] writing entry points to ../../build/image_projector/image_projector.egg-info/entry_points.txt
+[0.930s] writing requirements to ../../build/image_projector/image_projector.egg-info/requires.txt
+[0.930s] writing top-level names to ../../build/image_projector/image_projector.egg-info/top_level.txt
+[0.930s] writing manifest file '../../build/image_projector/image_projector.egg-info/SOURCES.txt'
+[0.955s] reading manifest file '../../build/image_projector/image_projector.egg-info/SOURCES.txt'
+[0.956s] writing manifest file '../../build/image_projector/image_projector.egg-info/SOURCES.txt'
+[0.956s] running build
+[0.956s] running build_py
+[0.956s] creating /home/ddq2/interbotix_ws/build/image_projector/build
+[0.956s] creating /home/ddq2/interbotix_ws/build/image_projector/build/lib
+[0.956s] creating /home/ddq2/interbotix_ws/build/image_projector/build/lib/image_projector
+[0.956s] copying image_projector/__init__.py -> /home/ddq2/interbotix_ws/build/image_projector/build/lib/image_projector
+[0.956s] copying image_projector/image_projector.py -> /home/ddq2/interbotix_ws/build/image_projector/build/lib/image_projector
+[0.956s] running install
+[0.960s] running install_lib
+[0.972s] creating /home/ddq2/interbotix_ws/install/image_projector/lib/python3.10/site-packages/image_projector
+[0.972s] copying /home/ddq2/interbotix_ws/build/image_projector/build/lib/image_projector/__init__.py -> /home/ddq2/interbotix_ws/install/image_projector/lib/python3.10/site-packages/image_projector
+[0.973s] copying /home/ddq2/interbotix_ws/build/image_projector/build/lib/image_projector/image_projector.py -> /home/ddq2/interbotix_ws/install/image_projector/lib/python3.10/site-packages/image_projector
+[0.973s] byte-compiling /home/ddq2/interbotix_ws/install/image_projector/lib/python3.10/site-packages/image_projector/__init__.py to __init__.cpython-310.pyc
+[0.973s] byte-compiling /home/ddq2/interbotix_ws/install/image_projector/lib/python3.10/site-packages/image_projector/image_projector.py to image_projector.cpython-310.pyc
+[0.973s] running install_data
+[0.973s] creating /home/ddq2/interbotix_ws/install/image_projector/share/ament_index
+[0.973s] creating /home/ddq2/interbotix_ws/install/image_projector/share/ament_index/resource_index
+[0.973s] creating /home/ddq2/interbotix_ws/install/image_projector/share/ament_index/resource_index/packages
+[0.973s] copying resource/image_projector -> /home/ddq2/interbotix_ws/install/image_projector/share/ament_index/resource_index/packages
+[0.973s] copying package.xml -> /home/ddq2/interbotix_ws/install/image_projector/share/image_projector
+[0.973s] running install_egg_info
+[0.987s] Copying ../../build/image_projector/image_projector.egg-info to /home/ddq2/interbotix_ws/install/image_projector/lib/python3.10/site-packages/image_projector-0.0.0-py3.10.egg-info
+[0.987s] running install_scripts
+[1.100s] Installing service script to /home/ddq2/interbotix_ws/install/image_projector/lib/image_projector
+[1.100s] writing list of installed files to '/home/ddq2/interbotix_ws/build/image_projector/install.log'
+[1.117s] Invoked command in '/home/ddq2/interbotix_ws/src/image_projector' returned '0': PYTHONPATH=/home/ddq2/interbotix_ws/build/image_projector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ddq2/interbotix_ws/install/image_projector/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/image_projector build --build-base /home/ddq2/interbotix_ws/build/image_projector/build install --record /home/ddq2/interbotix_ws/build/image_projector/install.log --single-version-externally-managed install_data

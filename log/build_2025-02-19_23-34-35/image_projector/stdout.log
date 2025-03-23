@@ -1,0 +1,30 @@
+running egg_info
+writing ../../build/image_projector/image_projector.egg-info/PKG-INFO
+writing dependency_links to ../../build/image_projector/image_projector.egg-info/dependency_links.txt
+writing entry points to ../../build/image_projector/image_projector.egg-info/entry_points.txt
+writing requirements to ../../build/image_projector/image_projector.egg-info/requires.txt
+writing top-level names to ../../build/image_projector/image_projector.egg-info/top_level.txt
+reading manifest file '../../build/image_projector/image_projector.egg-info/SOURCES.txt'
+writing manifest file '../../build/image_projector/image_projector.egg-info/SOURCES.txt'
+running build
+running build_py
+copying image_projector/__init__.py -> /home/ddq2/interbotix_ws/build/image_projector/build/lib/image_projector
+copying image_projector/realsense_projector.py -> /home/ddq2/interbotix_ws/build/image_projector/build/lib/image_projector
+copying image_projector/image_projector.py -> /home/ddq2/interbotix_ws/build/image_projector/build/lib/image_projector
+running install
+running install_lib
+copying /home/ddq2/interbotix_ws/build/image_projector/build/lib/image_projector/realsense_projector.py -> /home/ddq2/interbotix_ws/install/image_projector/lib/python3.10/site-packages/image_projector
+copying /home/ddq2/interbotix_ws/build/image_projector/build/lib/image_projector/image_projector.py -> /home/ddq2/interbotix_ws/install/image_projector/lib/python3.10/site-packages/image_projector
+byte-compiling /home/ddq2/interbotix_ws/install/image_projector/lib/python3.10/site-packages/image_projector/realsense_projector.py to realsense_projector.cpython-310.pyc
+byte-compiling /home/ddq2/interbotix_ws/install/image_projector/lib/python3.10/site-packages/image_projector/image_projector.py to image_projector.cpython-310.pyc
+running install_data
+copying resource/image_projector -> /home/ddq2/interbotix_ws/install/image_projector/share/ament_index/resource_index/packages
+copying package.xml -> /home/ddq2/interbotix_ws/install/image_projector/share/image_projector
+creating /home/ddq2/interbotix_ws/install/image_projector/share/image_projector/srv
+copying srv/Get3DCoordinates.srv -> /home/ddq2/interbotix_ws/install/image_projector/share/image_projector/srv
+running install_egg_info
+removing '/home/ddq2/interbotix_ws/install/image_projector/lib/python3.10/site-packages/image_projector-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/image_projector/image_projector.egg-info to /home/ddq2/interbotix_ws/install/image_projector/lib/python3.10/site-packages/image_projector-0.0.0-py3.10.egg-info
+running install_scripts
+Installing node script to /home/ddq2/interbotix_ws/install/image_projector/lib/image_projector
+writing list of installed files to '/home/ddq2/interbotix_ws/build/image_projector/install.log'

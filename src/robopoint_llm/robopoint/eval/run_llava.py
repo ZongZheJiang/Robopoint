@@ -24,6 +24,11 @@ from PIL import Image
 from io import BytesIO
 import re
 
+post = " Your answer should be formatted as a list of tuples, " \
+        "i.e. [(x1, y1), (x2, y2), ...], where each tuple contains the " \
+        "x and y coordinates of a point satisfying the conditions above." \
+        " The coordinates should be between 0 and 1, indicating the " \
+        "normalized pixel locations of the points in the image."
 
 def image_parser(args):
     out = args.image_file.split(args.sep)
@@ -68,6 +73,7 @@ def eval_model(args):
             qs = image_token_se + "\n" + qs
         else:
             qs = DEFAULT_IMAGE_TOKEN + "\n" + qs
+    qs += post
 
     if 'vicuna' in model_name.lower():
         conv_mode = "vicuna_v1"
@@ -102,7 +108,8 @@ def eval_model(args):
         image_processor,
         model.config
     ).to(model.device, dtype=torch.float16)
-
+    print('prompt: ', sep="")
+    print(prompt)
     input_ids = (
         tokenizer_image_token(prompt, tokenizer, IMAGE_TOKEN_INDEX, return_tensors="pt")
         .unsqueeze(0)

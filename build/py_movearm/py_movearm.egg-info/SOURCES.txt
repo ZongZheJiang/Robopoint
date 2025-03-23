@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/py_movearm/py_movearm.egg-info/PKG-INFO
+../../build/py_movearm/py_movearm.egg-info/SOURCES.txt
+../../build/py_movearm/py_movearm.egg-info/dependency_links.txt
+../../build/py_movearm/py_movearm.egg-info/entry_points.txt
+../../build/py_movearm/py_movearm.egg-info/requires.txt
+../../build/py_movearm/py_movearm.egg-info/top_level.txt
+../../build/py_movearm/py_movearm.egg-info/zip-safe
+py_movearm/__init__.py
+py_movearm/move_arm.py
+resource/py_movearm
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

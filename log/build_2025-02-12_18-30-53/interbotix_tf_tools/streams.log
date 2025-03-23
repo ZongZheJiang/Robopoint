@@ -1,0 +1,82 @@
+[0.176s] Invoking command in '/home/ddq2/interbotix_ws/build/interbotix_tf_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/usr/bin/env /home/ddq2/.local/bin/cmake /home/ddq2/interbotix_ws/src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_tf_tools -DCMAKE_INSTALL_PREFIX=/home/ddq2/interbotix_ws/install/interbotix_tf_tools
+[0.254s] -- The C compiler identification is GNU 11.4.0
+[0.291s] -- The CXX compiler identification is GNU 11.4.0
+[0.298s] -- Detecting C compiler ABI info
+[0.335s] -- Detecting C compiler ABI info - done
+[0.347s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.347s] -- Detecting C compile features
+[0.347s] -- Detecting C compile features - done
+[0.350s] -- Detecting CXX compiler ABI info
+[0.402s] -- Detecting CXX compiler ABI info - done
+[0.414s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.414s] -- Detecting CXX compile features
+[0.415s] -- Detecting CXX compile features - done
+[0.416s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.515s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.583s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.616s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.620s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.628s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.639s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.655s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.692s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.726s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.729s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.795s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[0.824s] -- Found FastRTPS: /opt/ros/humble/include
+[0.859s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.866s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.909s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.910s] -- Found Threads: TRUE
+[0.949s] -- Found rclcpp_components: 16.0.11 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.989s] -- Found tf2_msgs: 0.25.11 (/opt/ros/humble/share/tf2_msgs/cmake)
+[1.033s] -- Found tf2_ros: 0.25.11 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.062s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.122s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.123s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.123s] -- Configured cppcheck include dirs: /home/ddq2/interbotix_ws/src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_tf_tools/include
+[1.123s] -- Configured cppcheck exclude dirs and/or files: 
+[1.124s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.124s] -- Configured cpplint exclude dirs and/or files: 
+[1.124s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.125s] -- Added test 'lint_cmake' to check CMake code style
+[1.125s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.126s] -- Added test 'uncrustify' to check C / C++ code style
+[1.126s] -- Configured uncrustify additional arguments: 
+[1.126s] -- Added test 'xmllint' to check XML markup files
+[1.127s] -- Configuring done (0.9s)
+[1.136s] -- Generating done (0.0s)
+[1.139s] -- Build files have been written to: /home/ddq2/interbotix_ws/build/interbotix_tf_tools
+[1.157s] Invoked command in '/home/ddq2/interbotix_ws/build/interbotix_tf_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/usr/bin/env /home/ddq2/.local/bin/cmake /home/ddq2/interbotix_ws/src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_tf_tools -DCMAKE_INSTALL_PREFIX=/home/ddq2/interbotix_ws/install/interbotix_tf_tools
+[1.158s] Invoking command in '/home/ddq2/interbotix_ws/build/interbotix_tf_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/usr/bin/env /home/ddq2/.local/bin/cmake --build /home/ddq2/interbotix_ws/build/interbotix_tf_tools -- -j16 -l16
+[1.227s] [ 50%] [32mBuilding CXX object CMakeFiles/tf_rebroadcaster.dir/src/tf_rebroadcaster.cpp.o[0m
+[10.729s] [100%] [32m[1mLinking CXX shared library libtf_rebroadcaster.so[0m
+[11.051s] [100%] Built target tf_rebroadcaster
+[11.067s] Invoked command in '/home/ddq2/interbotix_ws/build/interbotix_tf_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/usr/bin/env /home/ddq2/.local/bin/cmake --build /home/ddq2/interbotix_ws/build/interbotix_tf_tools -- -j16 -l16
+[11.069s] Invoking command in '/home/ddq2/interbotix_ws/build/interbotix_tf_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/usr/bin/env /home/ddq2/.local/bin/cmake --install /home/ddq2/interbotix_ws/build/interbotix_tf_tools
+[11.125s] -- Install configuration: ""
+[11.125s] -- Installing: /home/ddq2/interbotix_ws/install/interbotix_tf_tools/lib/libtf_rebroadcaster.so
+[11.129s] -- Set non-toolchain portion of runtime path of "/home/ddq2/interbotix_ws/install/interbotix_tf_tools/lib/libtf_rebroadcaster.so" to ""
+[11.129s] -- Installing: /home/ddq2/interbotix_ws/install/interbotix_tf_tools/lib/interbotix_tf_tools/static_trans_pub.py
+[11.129s] -- Installing: /home/ddq2/interbotix_ws/install/interbotix_tf_tools/share/interbotix_tf_tools//config
+[11.129s] -- Installing: /home/ddq2/interbotix_ws/install/interbotix_tf_tools/share/interbotix_tf_tools//config/tf_rebroadcaster.yaml
+[11.129s] -- Installing: /home/ddq2/interbotix_ws/install/interbotix_tf_tools/share/interbotix_tf_tools//launch
+[11.129s] -- Installing: /home/ddq2/interbotix_ws/install/interbotix_tf_tools/share/interbotix_tf_tools//launch/static_transform_pub.launch.py
+[11.129s] -- Installing: /home/ddq2/interbotix_ws/install/interbotix_tf_tools/share/interbotix_tf_tools//launch/tf_rebroadcaster.launch.py
+[11.129s] -- Installing: /home/ddq2/interbotix_ws/install/interbotix_tf_tools/share/ament_index/resource_index/package_run_dependencies/interbotix_tf_tools
+[11.129s] -- Installing: /home/ddq2/interbotix_ws/install/interbotix_tf_tools/share/ament_index/resource_index/parent_prefix_path/interbotix_tf_tools
+[11.129s] -- Installing: /home/ddq2/interbotix_ws/install/interbotix_tf_tools/share/interbotix_tf_tools/environment/ament_prefix_path.sh
+[11.129s] -- Installing: /home/ddq2/interbotix_ws/install/interbotix_tf_tools/share/interbotix_tf_tools/environment/ament_prefix_path.dsv
+[11.129s] -- Installing: /home/ddq2/interbotix_ws/install/interbotix_tf_tools/share/interbotix_tf_tools/environment/path.sh
+[11.129s] -- Installing: /home/ddq2/interbotix_ws/install/interbotix_tf_tools/share/interbotix_tf_tools/environment/path.dsv
+[11.129s] -- Installing: /home/ddq2/interbotix_ws/install/interbotix_tf_tools/share/interbotix_tf_tools/local_setup.bash
+[11.129s] -- Installing: /home/ddq2/interbotix_ws/install/interbotix_tf_tools/share/interbotix_tf_tools/local_setup.sh
+[11.129s] -- Installing: /home/ddq2/interbotix_ws/install/interbotix_tf_tools/share/interbotix_tf_tools/local_setup.zsh
+[11.130s] -- Installing: /home/ddq2/interbotix_ws/install/interbotix_tf_tools/share/interbotix_tf_tools/local_setup.dsv
+[11.130s] -- Installing: /home/ddq2/interbotix_ws/install/interbotix_tf_tools/share/interbotix_tf_tools/package.dsv
+[11.130s] -- Installing: /home/ddq2/interbotix_ws/install/interbotix_tf_tools/share/ament_index/resource_index/packages/interbotix_tf_tools
+[11.130s] -- Installing: /home/ddq2/interbotix_ws/install/interbotix_tf_tools/share/ament_index/resource_index/rclcpp_components/interbotix_tf_tools
+[11.130s] -- Installing: /home/ddq2/interbotix_ws/install/interbotix_tf_tools/share/interbotix_tf_tools/cmake/interbotix_tf_toolsConfig.cmake
+[11.130s] -- Installing: /home/ddq2/interbotix_ws/install/interbotix_tf_tools/share/interbotix_tf_tools/cmake/interbotix_tf_toolsConfig-version.cmake
+[11.130s] -- Installing: /home/ddq2/interbotix_ws/install/interbotix_tf_tools/share/interbotix_tf_tools/package.xml
+[11.141s] Invoked command in '/home/ddq2/interbotix_ws/build/interbotix_tf_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/usr/bin/env /home/ddq2/.local/bin/cmake --install /home/ddq2/interbotix_ws/build/interbotix_tf_tools

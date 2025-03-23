@@ -1,0 +1,35 @@
+[0.613s] Invoking command in '/home/ddq2/interbotix_ws/src/py_movearm': LD_LIBRARY_PATH=/home/ddq2/interbotix_ws/install/robopoint_interfaces/lib:/home/ddq2/interbotix_ws/install/moveit_visual_tools/lib:/home/ddq2/interbotix_ws/install/interbotix_xs_rviz/lib:/home/ddq2/interbotix_ws/install/interbotix_xs_ros_control/lib:/home/ddq2/interbotix_ws/install/interbotix_xs_msgs/lib:/home/ddq2/interbotix_ws/install/interbotix_xs_driver/lib:/home/ddq2/interbotix_ws/install/interbotix_tf_tools/lib:/home/ddq2/interbotix_ws/install/interbotix_perception_msgs/lib:/home/ddq2/interbotix_ws/install/interbotix_moveit_interface_msgs/lib:/home/ddq2/interbotix_ws/install/dynamixel_workbench_toolbox/lib:/home/ddq2/realsense_ws/install/vision_msgs/lib:/home/ddq2/apriltag_ws/install/apriltag_ros/lib:/usr/local/cuda-12.4/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ddq2/interbotix_ws/build/py_movearm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ddq2/interbotix_ws/install/py_movearm/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_movearm build --build-base /home/ddq2/interbotix_ws/build/py_movearm/build install --record /home/ddq2/interbotix_ws/build/py_movearm/install.log --single-version-externally-managed install_data
+[0.793s] running egg_info
+[0.793s] creating ../../build/py_movearm/py_movearm.egg-info
+[0.805s] writing ../../build/py_movearm/py_movearm.egg-info/PKG-INFO
+[0.805s] writing dependency_links to ../../build/py_movearm/py_movearm.egg-info/dependency_links.txt
+[0.806s] writing requirements to ../../build/py_movearm/py_movearm.egg-info/requires.txt
+[0.806s] writing top-level names to ../../build/py_movearm/py_movearm.egg-info/top_level.txt
+[0.806s] writing manifest file '../../build/py_movearm/py_movearm.egg-info/SOURCES.txt'
+[0.832s] reading manifest file '../../build/py_movearm/py_movearm.egg-info/SOURCES.txt'
+[0.832s] writing manifest file '../../build/py_movearm/py_movearm.egg-info/SOURCES.txt'
+[0.832s] running build
+[0.832s] running build_py
+[0.832s] creating /home/ddq2/interbotix_ws/build/py_movearm/build
+[0.832s] creating /home/ddq2/interbotix_ws/build/py_movearm/build/lib
+[0.832s] creating /home/ddq2/interbotix_ws/build/py_movearm/build/lib/py_movearm
+[0.832s] copying py_movearm/__init__.py -> /home/ddq2/interbotix_ws/build/py_movearm/build/lib/py_movearm
+[0.832s] copying py_movearm/move_arm.py -> /home/ddq2/interbotix_ws/build/py_movearm/build/lib/py_movearm
+[0.832s] running install
+[0.836s] running install_lib
+[0.849s] creating /home/ddq2/interbotix_ws/install/py_movearm/lib/python3.10/site-packages/py_movearm
+[0.849s] copying /home/ddq2/interbotix_ws/build/py_movearm/build/lib/py_movearm/__init__.py -> /home/ddq2/interbotix_ws/install/py_movearm/lib/python3.10/site-packages/py_movearm
+[0.849s] copying /home/ddq2/interbotix_ws/build/py_movearm/build/lib/py_movearm/move_arm.py -> /home/ddq2/interbotix_ws/install/py_movearm/lib/python3.10/site-packages/py_movearm
+[0.849s] byte-compiling /home/ddq2/interbotix_ws/install/py_movearm/lib/python3.10/site-packages/py_movearm/__init__.py to __init__.cpython-310.pyc
+[0.849s] byte-compiling /home/ddq2/interbotix_ws/install/py_movearm/lib/python3.10/site-packages/py_movearm/move_arm.py to move_arm.cpython-310.pyc
+[0.850s] running install_data
+[0.850s] creating /home/ddq2/interbotix_ws/install/py_movearm/share/ament_index
+[0.850s] creating /home/ddq2/interbotix_ws/install/py_movearm/share/ament_index/resource_index
+[0.850s] creating /home/ddq2/interbotix_ws/install/py_movearm/share/ament_index/resource_index/packages
+[0.850s] copying resource/py_movearm -> /home/ddq2/interbotix_ws/install/py_movearm/share/ament_index/resource_index/packages
+[0.850s] copying package.xml -> /home/ddq2/interbotix_ws/install/py_movearm/share/py_movearm
+[0.850s] running install_egg_info
+[0.864s] Copying ../../build/py_movearm/py_movearm.egg-info to /home/ddq2/interbotix_ws/install/py_movearm/lib/python3.10/site-packages/py_movearm-0.0.0-py3.10.egg-info
+[0.864s] running install_scripts
+[0.978s] writing list of installed files to '/home/ddq2/interbotix_ws/build/py_movearm/install.log'
+[0.993s] Invoked command in '/home/ddq2/interbotix_ws/src/py_movearm' returned '0': LD_LIBRARY_PATH=/home/ddq2/interbotix_ws/install/robopoint_interfaces/lib:/home/ddq2/interbotix_ws/install/moveit_visual_tools/lib:/home/ddq2/interbotix_ws/install/interbotix_xs_rviz/lib:/home/ddq2/interbotix_ws/install/interbotix_xs_ros_control/lib:/home/ddq2/interbotix_ws/install/interbotix_xs_msgs/lib:/home/ddq2/interbotix_ws/install/interbotix_xs_driver/lib:/home/ddq2/interbotix_ws/install/interbotix_tf_tools/lib:/home/ddq2/interbotix_ws/install/interbotix_perception_msgs/lib:/home/ddq2/interbotix_ws/install/interbotix_moveit_interface_msgs/lib:/home/ddq2/interbotix_ws/install/dynamixel_workbench_toolbox/lib:/home/ddq2/realsense_ws/install/vision_msgs/lib:/home/ddq2/apriltag_ws/install/apriltag_ros/lib:/usr/local/cuda-12.4/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ddq2/interbotix_ws/build/py_movearm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ddq2/interbotix_ws/install/py_movearm/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_movearm build --build-base /home/ddq2/interbotix_ws/build/py_movearm/build install --record /home/ddq2/interbotix_ws/build/py_movearm/install.log --single-version-externally-managed install_data

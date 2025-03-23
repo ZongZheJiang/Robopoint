@@ -20,8 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            # 'movearm = py_movearm.move_arm:main',
-            # technically no need to call this once pipeline works
+            'movearm = py_movearm.move_arm:main',
         ],
     },
 )

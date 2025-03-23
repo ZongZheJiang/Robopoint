@@ -1,0 +1,280 @@
+[0.009s] Invoking command in '/home/ddq2/interbotix_ws/build/robopoint_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ddq2/interbotix_ws/install/image_projector:/home/ddq2/interbotix_ws/install/interbotix_xs_modules:/home/ddq2/interbotix_ws/install/interbotix_xs_sdk:/home/ddq2/interbotix_ws/install/interbotix_perception_modules:/home/ddq2/interbotix_ws/install/interbotix_perception_pipelines:/home/ddq2/interbotix_ws/install/interbotix_common_modules:/home/ddq2/realsense_ws/install/detection_visualizer:/home/ddq2/realsense_ws/install/distance_calculation:/opt/ros/humble _=/usr/bin/env /home/ddq2/.local/bin/cmake --build /home/ddq2/interbotix_ws/build/robopoint_interfaces -- -j16 -l16
+[0.066s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.203s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.245s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.249s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.251s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.274s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.537s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.830s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.202s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.204s] [33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[1.204s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.204s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.204s]   the cmake_policy command to set the policy and suppress this warning.
+[1.204s] 
+[1.204s] Call Stack (most recent call first):
+[1.204s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.204s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.204s]   CMakeLists.txt:28 (rosidl_generate_interfaces)
+[1.204s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.204s] [0m
+[1.219s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.220s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[1.220s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.220s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.220s]   the cmake_policy command to set the policy and suppress this warning.
+[1.220s] 
+[1.220s] Call Stack (most recent call first):
+[1.220s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[1.220s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.220s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.220s]   CMakeLists.txt:28 (rosidl_generate_interfaces)
+[1.220s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.220s] [0m
+[1.234s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[1.234s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.234s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.234s]   the cmake_policy command to set the policy and suppress this warning.
+[1.234s] 
+[1.234s] Call Stack (most recent call first):
+[1.234s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[1.234s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.234s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.234s]   CMakeLists.txt:28 (rosidl_generate_interfaces)
+[1.234s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.234s] [0m
+[1.236s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.236s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.236s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.257s] -- Added test 'lint_cmake' to check CMake code style
+[1.258s] -- Added test 'xmllint' to check XML markup files
+[1.262s] -- Configuring done (1.2s)
+[1.285s] -- Generating done (0.0s)
+[1.291s] -- Build files have been written to: /home/ddq2/interbotix_ws/build/robopoint_interfaces
+[1.302s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.306s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.309s] [  5%] Built target ament_cmake_python_copy_robopoint_interfaces
+[1.464s] running egg_info
+[1.477s] writing robopoint_interfaces.egg-info/PKG-INFO
+[1.477s] writing dependency_links to robopoint_interfaces.egg-info/dependency_links.txt
+[1.477s] writing top-level names to robopoint_interfaces.egg-info/top_level.txt
+[1.517s] reading manifest file 'robopoint_interfaces.egg-info/SOURCES.txt'
+[1.517s] writing manifest file 'robopoint_interfaces.egg-info/SOURCES.txt'
+[1.524s] [  5%] Built target robopoint_interfaces__cpp
+[1.524s] [  7%] [32mBuilding C object CMakeFiles/robopoint_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robopoint_interfaces/srv/detail/get3_d_coordinates__functions.c.o[0m
+[1.524s] [ 10%] [32mBuilding C object CMakeFiles/robopoint_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robopoint_interfaces/srv/detail/move_to_point__functions.c.o[0m
+[1.528s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.528s] [ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.528s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.535s] [ 17%] Built target ament_cmake_python_build_robopoint_interfaces_egg
+[1.590s] [ 20%] [32m[1mLinking C shared library librobopoint_interfaces__rosidl_generator_c.so[0m
+[1.607s] [ 20%] Built target robopoint_interfaces__rosidl_generator_c
+[1.611s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.611s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.611s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.707s] [ 30%] [32mBuilding CXX object CMakeFiles/robopoint_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robopoint_interfaces/srv/get3_d_coordinates__type_support.cpp.o[0m
+[1.708s] [ 33%] [32mBuilding CXX object CMakeFiles/robopoint_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robopoint_interfaces/srv/move_to_point__type_support.cpp.o[0m
+[1.726s] [ 35%] [32mBuilding CXX object CMakeFiles/robopoint_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robopoint_interfaces/srv/detail/get3_d_coordinates__type_support.cpp.o[0m
+[1.727s] [ 38%] [32mBuilding CXX object CMakeFiles/robopoint_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robopoint_interfaces/srv/detail/move_to_point__type_support.cpp.o[0m
+[1.749s] [ 41%] [32mBuilding CXX object CMakeFiles/robopoint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robopoint_interfaces/srv/detail/dds_fastrtps/get3_d_coordinates__type_support.cpp.o[0m
+[1.751s] [ 43%] [32mBuilding CXX object CMakeFiles/robopoint_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robopoint_interfaces/srv/detail/dds_fastrtps/move_to_point__type_support.cpp.o[0m
+[1.792s] [ 46%] [32mBuilding CXX object CMakeFiles/robopoint_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robopoint_interfaces/srv/get3_d_coordinates__type_support.cpp.o[0m
+[1.793s] [ 48%] [32mBuilding CXX object CMakeFiles/robopoint_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robopoint_interfaces/srv/move_to_point__type_support.cpp.o[0m
+[1.820s] [ 51%] [32m[1mLinking CXX shared library librobopoint_interfaces__rosidl_typesupport_c.so[0m
+[1.843s] [ 53%] [32mBuilding CXX object CMakeFiles/robopoint_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robopoint_interfaces/srv/detail/get3_d_coordinates__type_support_c.cpp.o[0m
+[1.843s] [ 53%] Built target robopoint_interfaces__rosidl_typesupport_c
+[1.844s] [ 56%] [32mBuilding CXX object CMakeFiles/robopoint_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robopoint_interfaces/srv/detail/move_to_point__type_support_c.cpp.o[0m
+[1.881s] [ 58%] [32mBuilding C object CMakeFiles/robopoint_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robopoint_interfaces/srv/detail/get3_d_coordinates__type_support.c.o[0m
+[1.882s] [ 61%] [32mBuilding C object CMakeFiles/robopoint_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robopoint_interfaces/srv/detail/move_to_point__type_support.c.o[0m
+[1.912s] [ 64%] [32m[1mLinking C shared library librobopoint_interfaces__rosidl_typesupport_introspection_c.so[0m
+[1.926s] [ 64%] Built target robopoint_interfaces__rosidl_typesupport_introspection_c
+[1.962s] [ 66%] [32m[1mLinking CXX shared library librobopoint_interfaces__rosidl_typesupport_cpp.so[0m
+[1.983s] [ 66%] Built target robopoint_interfaces__rosidl_typesupport_cpp
+[2.044s] [ 69%] [32m[1mLinking CXX shared library librobopoint_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.045s] [ 71%] [32m[1mLinking CXX shared library librobopoint_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.058s] [ 74%] [32m[1mLinking CXX shared library librobopoint_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.064s] [ 74%] Built target robopoint_interfaces__rosidl_typesupport_introspection_cpp
+[2.084s] [ 74%] Built target robopoint_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.096s] [ 74%] Built target robopoint_interfaces__rosidl_typesupport_fastrtps_c
+[2.104s] [ 74%] Built target robopoint_interfaces
+[2.111s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.423s] [ 76%] Built target robopoint_interfaces__py
+[2.433s] [ 79%] [32mBuilding C object CMakeFiles/robopoint_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robopoint_interfaces/srv/_get3_d_coordinates_s.c.o[0m
+[2.433s] [ 82%] [32mBuilding C object CMakeFiles/robopoint_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robopoint_interfaces/srv/_move_to_point_s.c.o[0m
+[2.506s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/robopoint_interfaces/librobopoint_interfaces__rosidl_generator_py.so[0m
+[2.525s] [ 84%] Built target robopoint_interfaces__rosidl_generator_py
+[2.535s] [ 87%] [32mBuilding C object CMakeFiles/robopoint_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robopoint_interfaces/_robopoint_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.535s] [ 92%] [32mBuilding C object CMakeFiles/robopoint_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robopoint_interfaces/_robopoint_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.535s] [ 92%] [32mBuilding C object CMakeFiles/robopoint_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robopoint_interfaces/_robopoint_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[2.592s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/robopoint_interfaces/robopoint_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.593s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/robopoint_interfaces/robopoint_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.594s] [100%] [32m[1mLinking C shared library rosidl_generator_py/robopoint_interfaces/robopoint_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.608s] [100%] Built target robopoint_interfaces__rosidl_typesupport_c__pyext
+[2.609s] [100%] Built target robopoint_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.609s] [100%] Built target robopoint_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.622s] Invoked command in '/home/ddq2/interbotix_ws/build/robopoint_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ddq2/interbotix_ws/install/image_projector:/home/ddq2/interbotix_ws/install/interbotix_xs_modules:/home/ddq2/interbotix_ws/install/interbotix_xs_sdk:/home/ddq2/interbotix_ws/install/interbotix_perception_modules:/home/ddq2/interbotix_ws/install/interbotix_perception_pipelines:/home/ddq2/interbotix_ws/install/interbotix_common_modules:/home/ddq2/realsense_ws/install/detection_visualizer:/home/ddq2/realsense_ws/install/distance_calculation:/opt/ros/humble _=/usr/bin/env /home/ddq2/.local/bin/cmake --build /home/ddq2/interbotix_ws/build/robopoint_interfaces -- -j16 -l16
+[2.686s] Invoking command in '/home/ddq2/interbotix_ws/build/robopoint_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ddq2/interbotix_ws/install/image_projector:/home/ddq2/interbotix_ws/install/interbotix_xs_modules:/home/ddq2/interbotix_ws/install/interbotix_xs_sdk:/home/ddq2/interbotix_ws/install/interbotix_perception_modules:/home/ddq2/interbotix_ws/install/interbotix_perception_pipelines:/home/ddq2/interbotix_ws/install/interbotix_common_modules:/home/ddq2/realsense_ws/install/detection_visualizer:/home/ddq2/realsense_ws/install/distance_calculation:/opt/ros/humble _=/usr/bin/env /home/ddq2/.local/bin/cmake --install /home/ddq2/interbotix_ws/build/robopoint_interfaces
+[2.740s] -- Install configuration: ""
+[2.740s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/ament_index/resource_index/rosidl_interfaces/robopoint_interfaces
+[2.740s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces
+[2.740s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/msg
+[2.740s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.740s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv
+[2.740s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/get3_d_coordinates.h
+[2.741s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/move_to_point.h
+[2.741s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail
+[2.741s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/get3_d_coordinates__struct.h
+[2.741s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/get3_d_coordinates__type_support.h
+[2.741s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/move_to_point__functions.c
+[2.741s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/move_to_point__struct.h
+[2.741s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/move_to_point__functions.h
+[2.741s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/move_to_point__type_support.h
+[2.741s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/get3_d_coordinates__functions.c
+[2.741s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/get3_d_coordinates__functions.h
+[2.741s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/robopoint_interfaces/environment/library_path.sh
+[2.741s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/robopoint_interfaces/environment/library_path.dsv
+[2.743s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/lib/librobopoint_interfaces__rosidl_generator_c.so
+[2.743s] -- Set non-toolchain portion of runtime path of "/home/ddq2/interbotix_ws/install/robopoint_interfaces/lib/librobopoint_interfaces__rosidl_generator_c.so" to ""
+[2.743s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces
+[2.743s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/msg
+[2.743s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.743s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv
+[2.743s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail
+[2.743s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/get3_d_coordinates__rosidl_typesupport_fastrtps_c.h
+[2.743s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/move_to_point__rosidl_typesupport_fastrtps_c.h
+[2.744s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/lib/librobopoint_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.744s] -- Set non-toolchain portion of runtime path of "/home/ddq2/interbotix_ws/install/robopoint_interfaces/lib/librobopoint_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[2.744s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces
+[2.744s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/msg
+[2.744s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.744s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv
+[2.744s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail
+[2.744s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/move_to_point__type_support.c
+[2.744s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/move_to_point__rosidl_typesupport_introspection_c.h
+[2.744s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/get3_d_coordinates__type_support.c
+[2.744s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/get3_d_coordinates__rosidl_typesupport_introspection_c.h
+[2.745s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/lib/librobopoint_interfaces__rosidl_typesupport_introspection_c.so
+[2.745s] -- Set non-toolchain portion of runtime path of "/home/ddq2/interbotix_ws/install/robopoint_interfaces/lib/librobopoint_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[2.745s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/lib/librobopoint_interfaces__rosidl_typesupport_c.so
+[2.745s] -- Set non-toolchain portion of runtime path of "/home/ddq2/interbotix_ws/install/robopoint_interfaces/lib/librobopoint_interfaces__rosidl_typesupport_c.so" to ""
+[2.746s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces
+[2.746s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/msg
+[2.746s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.746s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv
+[2.746s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/get3_d_coordinates.hpp
+[2.746s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/move_to_point.hpp
+[2.746s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail
+[2.746s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/get3_d_coordinates__builder.hpp
+[2.746s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/move_to_point__type_support.hpp
+[2.746s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/move_to_point__builder.hpp
+[2.746s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/get3_d_coordinates__struct.hpp
+[2.746s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/move_to_point__traits.hpp
+[2.746s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/get3_d_coordinates__type_support.hpp
+[2.746s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/move_to_point__struct.hpp
+[2.746s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/get3_d_coordinates__traits.hpp
+[2.747s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces
+[2.747s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/msg
+[2.747s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.747s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv
+[2.747s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail
+[2.747s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/move_to_point__rosidl_typesupport_fastrtps_cpp.hpp
+[2.747s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/get3_d_coordinates__rosidl_typesupport_fastrtps_cpp.hpp
+[2.747s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/dds_fastrtps
+[2.747s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/lib/librobopoint_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.748s] -- Set non-toolchain portion of runtime path of "/home/ddq2/interbotix_ws/install/robopoint_interfaces/lib/librobopoint_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.748s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces
+[2.748s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv
+[2.748s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail
+[2.748s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/get3_d_coordinates__type_support.cpp
+[2.748s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/move_to_point__rosidl_typesupport_introspection_cpp.hpp
+[2.748s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/move_to_point__type_support.cpp
+[2.748s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/include/robopoint_interfaces/robopoint_interfaces/srv/detail/get3_d_coordinates__rosidl_typesupport_introspection_cpp.hpp
+[2.748s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/lib/librobopoint_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.749s] -- Set non-toolchain portion of runtime path of "/home/ddq2/interbotix_ws/install/robopoint_interfaces/lib/librobopoint_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[2.749s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/lib/librobopoint_interfaces__rosidl_typesupport_cpp.so
+[2.749s] -- Set non-toolchain portion of runtime path of "/home/ddq2/interbotix_ws/install/robopoint_interfaces/lib/librobopoint_interfaces__rosidl_typesupport_cpp.so" to ""
+[2.749s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/robopoint_interfaces/environment/pythonpath.sh
+[2.749s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/robopoint_interfaces/environment/pythonpath.dsv
+[2.749s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/local/lib/python3.10/dist-packages/robopoint_interfaces-0.0.0-py3.10.egg-info
+[2.749s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/local/lib/python3.10/dist-packages/robopoint_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[2.749s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/local/lib/python3.10/dist-packages/robopoint_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[2.750s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/local/lib/python3.10/dist-packages/robopoint_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.750s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/local/lib/python3.10/dist-packages/robopoint_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.750s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/local/lib/python3.10/dist-packages/robopoint_interfaces
+[2.750s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/local/lib/python3.10/dist-packages/robopoint_interfaces/__init__.py
+[2.750s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/local/lib/python3.10/dist-packages/robopoint_interfaces/robopoint_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.750s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/local/lib/python3.10/dist-packages/robopoint_interfaces/_robopoint_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.750s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/local/lib/python3.10/dist-packages/robopoint_interfaces/robopoint_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.750s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/local/lib/python3.10/dist-packages/robopoint_interfaces/robopoint_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.750s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/local/lib/python3.10/dist-packages/robopoint_interfaces/_robopoint_interfaces_s.ep.rosidl_typesupport_c.c
+[2.750s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/local/lib/python3.10/dist-packages/robopoint_interfaces/srv
+[2.750s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/local/lib/python3.10/dist-packages/robopoint_interfaces/srv/_get3_d_coordinates_s.c
+[2.751s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/local/lib/python3.10/dist-packages/robopoint_interfaces/srv/_move_to_point.py
+[2.751s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/local/lib/python3.10/dist-packages/robopoint_interfaces/srv/__init__.py
+[2.751s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/local/lib/python3.10/dist-packages/robopoint_interfaces/srv/_get3_d_coordinates.py
+[2.751s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/local/lib/python3.10/dist-packages/robopoint_interfaces/srv/_move_to_point_s.c
+[2.751s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/local/lib/python3.10/dist-packages/robopoint_interfaces/_robopoint_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.751s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/local/lib/python3.10/dist-packages/robopoint_interfaces/librobopoint_interfaces__rosidl_generator_py.so
+[2.781s] Listing '/home/ddq2/interbotix_ws/install/robopoint_interfaces/local/lib/python3.10/dist-packages/robopoint_interfaces'...
+[2.781s] Compiling '/home/ddq2/interbotix_ws/install/robopoint_interfaces/local/lib/python3.10/dist-packages/robopoint_interfaces/__init__.py'...
+[2.781s] Listing '/home/ddq2/interbotix_ws/install/robopoint_interfaces/local/lib/python3.10/dist-packages/robopoint_interfaces/srv'...
+[2.781s] Compiling '/home/ddq2/interbotix_ws/install/robopoint_interfaces/local/lib/python3.10/dist-packages/robopoint_interfaces/srv/__init__.py'...
+[2.781s] Compiling '/home/ddq2/interbotix_ws/install/robopoint_interfaces/local/lib/python3.10/dist-packages/robopoint_interfaces/srv/_get3_d_coordinates.py'...
+[2.781s] Compiling '/home/ddq2/interbotix_ws/install/robopoint_interfaces/local/lib/python3.10/dist-packages/robopoint_interfaces/srv/_move_to_point.py'...
+[2.785s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/local/lib/python3.10/dist-packages/robopoint_interfaces/robopoint_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.785s] -- Set non-toolchain portion of runtime path of "/home/ddq2/interbotix_ws/install/robopoint_interfaces/local/lib/python3.10/dist-packages/robopoint_interfaces/robopoint_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.785s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/local/lib/python3.10/dist-packages/robopoint_interfaces/robopoint_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.785s] -- Set non-toolchain portion of runtime path of "/home/ddq2/interbotix_ws/install/robopoint_interfaces/local/lib/python3.10/dist-packages/robopoint_interfaces/robopoint_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.785s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/local/lib/python3.10/dist-packages/robopoint_interfaces/robopoint_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.785s] -- Set non-toolchain portion of runtime path of "/home/ddq2/interbotix_ws/install/robopoint_interfaces/local/lib/python3.10/dist-packages/robopoint_interfaces/robopoint_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.786s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/lib/librobopoint_interfaces__rosidl_generator_py.so
+[2.786s] -- Set non-toolchain portion of runtime path of "/home/ddq2/interbotix_ws/install/robopoint_interfaces/lib/librobopoint_interfaces__rosidl_generator_py.so" to ""
+[2.786s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/robopoint_interfaces/srv/Get3DCoordinates.idl
+[2.786s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/robopoint_interfaces/srv/MoveToPoint.idl
+[2.786s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/robopoint_interfaces/srv/Get3DCoordinates.srv
+[2.786s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/robopoint_interfaces/srv/Get3DCoordinates_Request.msg
+[2.786s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/robopoint_interfaces/srv/Get3DCoordinates_Response.msg
+[2.786s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/robopoint_interfaces/srv/MoveToPoint.srv
+[2.787s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/robopoint_interfaces/srv/MoveToPoint_Request.msg
+[2.787s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/robopoint_interfaces/srv/MoveToPoint_Response.msg
+[2.787s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/ament_index/resource_index/package_run_dependencies/robopoint_interfaces
+[2.787s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/ament_index/resource_index/parent_prefix_path/robopoint_interfaces
+[2.787s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/robopoint_interfaces/environment/ament_prefix_path.sh
+[2.787s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/robopoint_interfaces/environment/ament_prefix_path.dsv
+[2.787s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/robopoint_interfaces/environment/path.sh
+[2.787s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/robopoint_interfaces/environment/path.dsv
+[2.787s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/robopoint_interfaces/local_setup.bash
+[2.787s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/robopoint_interfaces/local_setup.sh
+[2.787s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/robopoint_interfaces/local_setup.zsh
+[2.787s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/robopoint_interfaces/local_setup.dsv
+[2.787s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/robopoint_interfaces/package.dsv
+[2.787s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/ament_index/resource_index/packages/robopoint_interfaces
+[2.787s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/robopoint_interfaces/cmake/export_robopoint_interfaces__rosidl_generator_cExport.cmake
+[2.788s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/robopoint_interfaces/cmake/export_robopoint_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.788s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/robopoint_interfaces/cmake/export_robopoint_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.788s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/robopoint_interfaces/cmake/export_robopoint_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.788s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/robopoint_interfaces/cmake/robopoint_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.788s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/robopoint_interfaces/cmake/robopoint_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.788s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/robopoint_interfaces/cmake/robopoint_interfaces__rosidl_typesupport_cExport.cmake
+[2.788s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/robopoint_interfaces/cmake/robopoint_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.788s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/robopoint_interfaces/cmake/export_robopoint_interfaces__rosidl_generator_cppExport.cmake
+[2.788s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/robopoint_interfaces/cmake/export_robopoint_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.788s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/robopoint_interfaces/cmake/export_robopoint_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.788s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/robopoint_interfaces/cmake/robopoint_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.789s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/robopoint_interfaces/cmake/robopoint_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.789s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/robopoint_interfaces/cmake/robopoint_interfaces__rosidl_typesupport_cppExport.cmake
+[2.789s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/robopoint_interfaces/cmake/robopoint_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.789s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/robopoint_interfaces/cmake/export_robopoint_interfaces__rosidl_generator_pyExport.cmake
+[2.789s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/robopoint_interfaces/cmake/export_robopoint_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.789s] -- Installing: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/robopoint_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.789s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/robopoint_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.789s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/robopoint_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.789s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/robopoint_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.789s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/robopoint_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.789s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/robopoint_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.789s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/robopoint_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.789s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/robopoint_interfaces/cmake/robopoint_interfacesConfig.cmake
+[2.789s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/robopoint_interfaces/cmake/robopoint_interfacesConfig-version.cmake
+[2.789s] -- Up-to-date: /home/ddq2/interbotix_ws/install/robopoint_interfaces/share/robopoint_interfaces/package.xml
+[2.800s] Invoked command in '/home/ddq2/interbotix_ws/build/robopoint_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ddq2/interbotix_ws/install/image_projector:/home/ddq2/interbotix_ws/install/interbotix_xs_modules:/home/ddq2/interbotix_ws/install/interbotix_xs_sdk:/home/ddq2/interbotix_ws/install/interbotix_perception_modules:/home/ddq2/interbotix_ws/install/interbotix_perception_pipelines:/home/ddq2/interbotix_ws/install/interbotix_common_modules:/home/ddq2/realsense_ws/install/detection_visualizer:/home/ddq2/realsense_ws/install/distance_calculation:/opt/ros/humble _=/usr/bin/env /home/ddq2/.local/bin/cmake --install /home/ddq2/interbotix_ws/build/robopoint_interfaces

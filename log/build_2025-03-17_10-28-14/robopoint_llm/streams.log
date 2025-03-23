@@ -1,0 +1,49 @@
+[0.771s] Invoking command in '/home/ddq2/interbotix_ws/src/robopoint_llm': LD_LIBRARY_PATH=/home/ddq2/interbotix_ws/install/robopoint_interfaces/lib:/usr/local/cuda-12.4/lib64:/home/ddq2/interbotix_ws/install/moveit_visual_tools/lib:/home/ddq2/interbotix_ws/install/interbotix_xs_rviz/lib:/home/ddq2/interbotix_ws/install/interbotix_xs_ros_control/lib:/home/ddq2/interbotix_ws/install/interbotix_xs_msgs/lib:/home/ddq2/interbotix_ws/install/interbotix_xs_driver/lib:/home/ddq2/interbotix_ws/install/interbotix_tf_tools/lib:/home/ddq2/interbotix_ws/install/interbotix_perception_msgs/lib:/home/ddq2/interbotix_ws/install/interbotix_moveit_interface_msgs/lib:/home/ddq2/interbotix_ws/install/dynamixel_workbench_toolbox/lib:/home/ddq2/realsense_ws/install/vision_msgs/lib:/home/ddq2/apriltag_ws/install/apriltag_ros/lib:/usr/local/cuda-12.4/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ddq2/interbotix_ws/build/robopoint_llm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robopoint_llm build --build-base /home/ddq2/interbotix_ws/build/robopoint_llm/build install --record /home/ddq2/interbotix_ws/build/robopoint_llm/install.log --single-version-externally-managed install_data
+[0.963s] running egg_info
+[0.976s] writing ../../build/robopoint_llm/robopoint_llm.egg-info/PKG-INFO
+[0.976s] writing dependency_links to ../../build/robopoint_llm/robopoint_llm.egg-info/dependency_links.txt
+[0.976s] writing entry points to ../../build/robopoint_llm/robopoint_llm.egg-info/entry_points.txt
+[0.976s] writing requirements to ../../build/robopoint_llm/robopoint_llm.egg-info/requires.txt
+[0.976s] writing top-level names to ../../build/robopoint_llm/robopoint_llm.egg-info/top_level.txt
+[1.003s] reading manifest file '../../build/robopoint_llm/robopoint_llm.egg-info/SOURCES.txt'
+[1.004s] writing manifest file '../../build/robopoint_llm/robopoint_llm.egg-info/SOURCES.txt'
+[1.004s] running build
+[1.004s] running build_py
+[1.005s] copying robopoint_llm/__init__.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm
+[1.005s] copying robopoint_llm/query.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm
+[1.005s] copying robopoint/__init__.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint
+[1.005s] copying robopoint/conversation.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint
+[1.005s] copying robopoint/constants.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint
+[1.005s] copying robopoint/utils.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint
+[1.005s] copying robopoint/mm_utils.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint
+[1.005s] copying robopoint/run_llm_service.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint
+[1.005s] copying robopoint/run_llm.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint
+[1.005s] copying robopoint/model/__init__.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint/model
+[1.006s] copying robopoint/model/utils.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint/model
+[1.006s] copying robopoint/model/llava_arch.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint/model
+[1.006s] copying robopoint/model/apply_delta.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint/model
+[1.006s] copying robopoint/model/builder.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint/model
+[1.006s] copying robopoint/model/consolidate.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint/model
+[1.006s] copying robopoint/model/make_delta.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint/model
+[1.006s] copying robopoint/serve/__init__.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint/serve
+[1.006s] copying robopoint/serve/register_worker.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint/serve
+[1.006s] copying robopoint/serve/test_message.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint/serve
+[1.006s] copying robopoint/serve/sglang_worker.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint/serve
+[1.006s] copying robopoint/serve/model_worker.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint/serve
+[1.006s] copying robopoint/serve/controller.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint/serve
+[1.006s] copying robopoint/serve/gradio_web_server.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint/serve
+[1.007s] copying robopoint/serve/cli.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint/serve
+[1.007s] running install
+[1.011s] running install_lib
+[1.026s] copying /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/query.py -> /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm
+[1.027s] byte-compiling /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/query.py to query.cpython-310.pyc
+[1.027s] running install_data
+[1.027s] copying resource/robopoint_llm -> /home/ddq2/interbotix_ws/install/robopoint_llm/share/ament_index/resource_index/packages
+[1.027s] copying package.xml -> /home/ddq2/interbotix_ws/install/robopoint_llm/share/robopoint_llm
+[1.028s] running install_egg_info
+[1.042s] removing '/home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm-0.0.0-py3.10.egg-info' (and everything under it)
+[1.042s] Copying ../../build/robopoint_llm/robopoint_llm.egg-info to /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm-0.0.0-py3.10.egg-info
+[1.043s] running install_scripts
+[1.163s] Installing query script to /home/ddq2/interbotix_ws/install/robopoint_llm/lib/robopoint_llm
+[1.164s] writing list of installed files to '/home/ddq2/interbotix_ws/build/robopoint_llm/install.log'
+[1.182s] Invoked command in '/home/ddq2/interbotix_ws/src/robopoint_llm' returned '0': LD_LIBRARY_PATH=/home/ddq2/interbotix_ws/install/robopoint_interfaces/lib:/usr/local/cuda-12.4/lib64:/home/ddq2/interbotix_ws/install/moveit_visual_tools/lib:/home/ddq2/interbotix_ws/install/interbotix_xs_rviz/lib:/home/ddq2/interbotix_ws/install/interbotix_xs_ros_control/lib:/home/ddq2/interbotix_ws/install/interbotix_xs_msgs/lib:/home/ddq2/interbotix_ws/install/interbotix_xs_driver/lib:/home/ddq2/interbotix_ws/install/interbotix_tf_tools/lib:/home/ddq2/interbotix_ws/install/interbotix_perception_msgs/lib:/home/ddq2/interbotix_ws/install/interbotix_moveit_interface_msgs/lib:/home/ddq2/interbotix_ws/install/dynamixel_workbench_toolbox/lib:/home/ddq2/realsense_ws/install/vision_msgs/lib:/home/ddq2/apriltag_ws/install/apriltag_ros/lib:/usr/local/cuda-12.4/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ddq2/interbotix_ws/build/robopoint_llm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robopoint_llm build --build-base /home/ddq2/interbotix_ws/build/robopoint_llm/build install --record /home/ddq2/interbotix_ws/build/robopoint_llm/install.log --single-version-externally-managed install_data

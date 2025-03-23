@@ -1,0 +1,2 @@
+[console_scripts]
+movearm = py_movearm.move_arm:main

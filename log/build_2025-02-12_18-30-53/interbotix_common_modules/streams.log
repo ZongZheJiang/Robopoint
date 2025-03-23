@@ -1,0 +1,70 @@
+[0.892s] Invoking command in '/home/ddq2/interbotix_ws/src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_modules': PYTHONPATH=/home/ddq2/interbotix_ws/build/interbotix_common_modules/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ddq2/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/interbotix_common_modules build --build-base /home/ddq2/interbotix_ws/build/interbotix_common_modules/build install --record /home/ddq2/interbotix_ws/build/interbotix_common_modules/install.log --single-version-externally-managed install_data
+[1.204s] running egg_info
+[1.204s] creating ../../../../build/interbotix_common_modules/interbotix_common_modules.egg-info
+[1.218s] writing ../../../../build/interbotix_common_modules/interbotix_common_modules.egg-info/PKG-INFO
+[1.219s] writing dependency_links to ../../../../build/interbotix_common_modules/interbotix_common_modules.egg-info/dependency_links.txt
+[1.219s] writing requirements to ../../../../build/interbotix_common_modules/interbotix_common_modules.egg-info/requires.txt
+[1.219s] writing top-level names to ../../../../build/interbotix_common_modules/interbotix_common_modules.egg-info/top_level.txt
+[1.219s] writing manifest file '../../../../build/interbotix_common_modules/interbotix_common_modules.egg-info/SOURCES.txt'
+[1.248s] reading manifest file '../../../../build/interbotix_common_modules/interbotix_common_modules.egg-info/SOURCES.txt'
+[1.249s] writing manifest file '../../../../build/interbotix_common_modules/interbotix_common_modules.egg-info/SOURCES.txt'
+[1.249s] running build
+[1.249s] running build_py
+[1.249s] creating /home/ddq2/interbotix_ws/build/interbotix_common_modules/build
+[1.249s] creating /home/ddq2/interbotix_ws/build/interbotix_common_modules/build/lib
+[1.249s] creating /home/ddq2/interbotix_ws/build/interbotix_common_modules/build/lib/interbotix_common_modules
+[1.249s] copying interbotix_common_modules/__init__.py -> /home/ddq2/interbotix_ws/build/interbotix_common_modules/build/lib/interbotix_common_modules
+[1.249s] creating /home/ddq2/interbotix_ws/build/interbotix_common_modules/build/lib/interbotix_common_modules/py_common
+[1.249s] copying interbotix_common_modules/py_common/__init__.py -> /home/ddq2/interbotix_ws/build/interbotix_common_modules/build/lib/interbotix_common_modules/py_common
+[1.249s] copying interbotix_common_modules/py_common/params.py -> /home/ddq2/interbotix_ws/build/interbotix_common_modules/build/lib/interbotix_common_modules/py_common
+[1.249s] creating /home/ddq2/interbotix_ws/build/interbotix_common_modules/build/lib/interbotix_common_modules/angle_manipulation
+[1.250s] copying interbotix_common_modules/angle_manipulation/__init__.py -> /home/ddq2/interbotix_ws/build/interbotix_common_modules/build/lib/interbotix_common_modules/angle_manipulation
+[1.250s] copying interbotix_common_modules/angle_manipulation/angle_manipulation.py -> /home/ddq2/interbotix_ws/build/interbotix_common_modules/build/lib/interbotix_common_modules/angle_manipulation
+[1.250s] creating /home/ddq2/interbotix_ws/build/interbotix_common_modules/build/lib/interbotix_common_modules/launch
+[1.250s] copying interbotix_common_modules/launch/__init__.py -> /home/ddq2/interbotix_ws/build/interbotix_common_modules/build/lib/interbotix_common_modules/launch
+[1.250s] copying interbotix_common_modules/launch/or_condition.py -> /home/ddq2/interbotix_ws/build/interbotix_common_modules/build/lib/interbotix_common_modules/launch
+[1.250s] copying interbotix_common_modules/launch/and_condition.py -> /home/ddq2/interbotix_ws/build/interbotix_common_modules/build/lib/interbotix_common_modules/launch
+[1.250s] creating /home/ddq2/interbotix_ws/build/interbotix_common_modules/build/lib/interbotix_common_modules/common_robot
+[1.250s] copying interbotix_common_modules/common_robot/__init__.py -> /home/ddq2/interbotix_ws/build/interbotix_common_modules/build/lib/interbotix_common_modules/common_robot
+[1.250s] copying interbotix_common_modules/common_robot/exceptions.py -> /home/ddq2/interbotix_ws/build/interbotix_common_modules/build/lib/interbotix_common_modules/common_robot
+[1.250s] copying interbotix_common_modules/common_robot/robot.py -> /home/ddq2/interbotix_ws/build/interbotix_common_modules/build/lib/interbotix_common_modules/common_robot
+[1.251s] running install
+[1.255s] running install_lib
+[1.269s] creating /home/ddq2/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules
+[1.269s] copying /home/ddq2/interbotix_ws/build/interbotix_common_modules/build/lib/interbotix_common_modules/__init__.py -> /home/ddq2/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules
+[1.269s] creating /home/ddq2/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/py_common
+[1.269s] copying /home/ddq2/interbotix_ws/build/interbotix_common_modules/build/lib/interbotix_common_modules/py_common/__init__.py -> /home/ddq2/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/py_common
+[1.269s] copying /home/ddq2/interbotix_ws/build/interbotix_common_modules/build/lib/interbotix_common_modules/py_common/params.py -> /home/ddq2/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/py_common
+[1.269s] creating /home/ddq2/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/angle_manipulation
+[1.270s] copying /home/ddq2/interbotix_ws/build/interbotix_common_modules/build/lib/interbotix_common_modules/angle_manipulation/__init__.py -> /home/ddq2/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/angle_manipulation
+[1.270s] copying /home/ddq2/interbotix_ws/build/interbotix_common_modules/build/lib/interbotix_common_modules/angle_manipulation/angle_manipulation.py -> /home/ddq2/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/angle_manipulation
+[1.270s] creating /home/ddq2/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/launch
+[1.270s] copying /home/ddq2/interbotix_ws/build/interbotix_common_modules/build/lib/interbotix_common_modules/launch/__init__.py -> /home/ddq2/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/launch
+[1.270s] copying /home/ddq2/interbotix_ws/build/interbotix_common_modules/build/lib/interbotix_common_modules/launch/or_condition.py -> /home/ddq2/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/launch
+[1.270s] copying /home/ddq2/interbotix_ws/build/interbotix_common_modules/build/lib/interbotix_common_modules/launch/and_condition.py -> /home/ddq2/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/launch
+[1.270s] creating /home/ddq2/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/common_robot
+[1.270s] copying /home/ddq2/interbotix_ws/build/interbotix_common_modules/build/lib/interbotix_common_modules/common_robot/__init__.py -> /home/ddq2/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/common_robot
+[1.270s] copying /home/ddq2/interbotix_ws/build/interbotix_common_modules/build/lib/interbotix_common_modules/common_robot/exceptions.py -> /home/ddq2/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/common_robot
+[1.270s] copying /home/ddq2/interbotix_ws/build/interbotix_common_modules/build/lib/interbotix_common_modules/common_robot/robot.py -> /home/ddq2/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/common_robot
+[1.270s] byte-compiling /home/ddq2/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/__init__.py to __init__.cpython-310.pyc
+[1.271s] byte-compiling /home/ddq2/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/py_common/__init__.py to __init__.cpython-310.pyc
+[1.271s] byte-compiling /home/ddq2/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/py_common/params.py to params.cpython-310.pyc
+[1.272s] byte-compiling /home/ddq2/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/angle_manipulation/__init__.py to __init__.cpython-310.pyc
+[1.272s] byte-compiling /home/ddq2/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/angle_manipulation/angle_manipulation.py to angle_manipulation.cpython-310.pyc
+[1.272s] byte-compiling /home/ddq2/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/launch/__init__.py to __init__.cpython-310.pyc
+[1.273s] byte-compiling /home/ddq2/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/launch/or_condition.py to or_condition.cpython-310.pyc
+[1.273s] byte-compiling /home/ddq2/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/launch/and_condition.py to and_condition.cpython-310.pyc
+[1.273s] byte-compiling /home/ddq2/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/common_robot/__init__.py to __init__.cpython-310.pyc
+[1.273s] byte-compiling /home/ddq2/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/common_robot/exceptions.py to exceptions.cpython-310.pyc
+[1.273s] byte-compiling /home/ddq2/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules/common_robot/robot.py to robot.cpython-310.pyc
+[1.273s] running install_data
+[1.274s] creating /home/ddq2/interbotix_ws/install/interbotix_common_modules/share/ament_index
+[1.274s] creating /home/ddq2/interbotix_ws/install/interbotix_common_modules/share/ament_index/resource_index
+[1.274s] creating /home/ddq2/interbotix_ws/install/interbotix_common_modules/share/ament_index/resource_index/packages
+[1.274s] copying resource/interbotix_common_modules -> /home/ddq2/interbotix_ws/install/interbotix_common_modules/share/ament_index/resource_index/packages
+[1.274s] copying package.xml -> /home/ddq2/interbotix_ws/install/interbotix_common_modules/share/interbotix_common_modules
+[1.274s] running install_egg_info
+[1.290s] Copying ../../../../build/interbotix_common_modules/interbotix_common_modules.egg-info to /home/ddq2/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages/interbotix_common_modules-0.0.0-py3.10.egg-info
+[1.290s] running install_scripts
+[1.415s] writing list of installed files to '/home/ddq2/interbotix_ws/build/interbotix_common_modules/install.log'
+[1.438s] Invoked command in '/home/ddq2/interbotix_ws/src/interbotix_ros_toolboxes/interbotix_common_toolbox/interbotix_common_modules' returned '0': PYTHONPATH=/home/ddq2/interbotix_ws/build/interbotix_common_modules/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ddq2/interbotix_ws/install/interbotix_common_modules/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/interbotix_common_modules build --build-base /home/ddq2/interbotix_ws/build/interbotix_common_modules/build install --record /home/ddq2/interbotix_ws/build/interbotix_common_modules/install.log --single-version-externally-managed install_data

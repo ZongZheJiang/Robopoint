@@ -1,0 +1,32 @@
+[0.395s] Invoking command in '/home/ddq2/interbotix_ws/build/moveit_visual_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ddq2/interbotix_ws/install/image_projector:/home/ddq2/interbotix_ws/install/interbotix_xs_modules:/home/ddq2/interbotix_ws/install/interbotix_xs_sdk:/home/ddq2/interbotix_ws/install/interbotix_perception_modules:/home/ddq2/interbotix_ws/install/interbotix_perception_pipelines:/home/ddq2/interbotix_ws/install/interbotix_common_modules:/home/ddq2/realsense_ws/install/detection_visualizer:/home/ddq2/realsense_ws/install/distance_calculation:/opt/ros/humble _=/usr/bin/env /home/ddq2/.local/bin/cmake --build /home/ddq2/interbotix_ws/build/moveit_visual_tools -- -j16 -l16
+[0.866s] [ 16%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/moveit_visual_tools.cpp.o[0m
+[0.877s] [ 33%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/imarker_robot_state.cpp.o[0m
+[0.881s] gmake[2]: *** No rule to make target '/opt/ros/humble/lib/libmoveit_constraint_sampler_manager_loader.so.2.5.7', needed by 'libmoveit_visual_tools.so'.  Stop.
+[0.881s] gmake[2]: *** Waiting for unfinished jobs....
+[0.890s] [ 50%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/imarker_end_effector.cpp.o[0m
+[1.438s] In file included from [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:40[m[K,
+[1.438s]                  from [01m[K/opt/ros/humble/include/moveit/robot_state/conversions.h:39[m[K,
+[1.438s]                  from [01m[K/home/ddq2/interbotix_ws/src/moveit_visual_tools/src/imarker_robot_state.cpp:37[m[K:
+[1.438s] [01m[K/opt/ros/humble/include/moveit/robot_model/robot_model.h:42:10:[m[K [01;31m[Kfatal error: [m[Ksrdfdom/model.h: No such file or directory
+[1.438s]    42 | #include [01;31m[K<srdfdom/model.h>[m[K
+[1.439s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.439s] compilation terminated.
+[1.439s] gmake[2]: *** [CMakeFiles/moveit_visual_tools.dir/build.make:90: CMakeFiles/moveit_visual_tools.dir/src/imarker_robot_state.cpp.o] Error 1
+[2.216s] In file included from [01m[K/home/ddq2/interbotix_ws/src/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:38[m[K,
+[2.216s]                  from [01m[K/home/ddq2/interbotix_ws/src/moveit_visual_tools/src/moveit_visual_tools.cpp:32[m[K:
+[2.216s] [01m[K/opt/ros/humble/include/rviz_visual_tools/rviz_visual_tools.hpp:46:10:[m[K [01;31m[Kfatal error: [m[Keigen_stl_containers/eigen_stl_vector_container.h: No such file or directory
+[2.216s]    46 | #include [01;31m[K<eigen_stl_containers/eigen_stl_vector_container.h>[m[K
+[2.217s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.220s] compilation terminated.
+[2.223s] gmake[2]: *** [CMakeFiles/moveit_visual_tools.dir/build.make:76: CMakeFiles/moveit_visual_tools.dir/src/moveit_visual_tools.cpp.o] Error 1
+[2.948s] In file included from [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:40[m[K,
+[2.948s]                  from [01m[K/home/ddq2/interbotix_ws/src/moveit_visual_tools/include/moveit_visual_tools/imarker_robot_state.h:45[m[K,
+[2.949s]                  from [01m[K/home/ddq2/interbotix_ws/src/moveit_visual_tools/src/imarker_end_effector.cpp:47[m[K:
+[2.949s] [01m[K/opt/ros/humble/include/moveit/robot_model/robot_model.h:42:10:[m[K [01;31m[Kfatal error: [m[Ksrdfdom/model.h: No such file or directory
+[2.949s]    42 | #include [01;31m[K<srdfdom/model.h>[m[K
+[2.949s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[2.949s] compilation terminated.
+[2.955s] gmake[2]: *** [CMakeFiles/moveit_visual_tools.dir/build.make:104: CMakeFiles/moveit_visual_tools.dir/src/imarker_end_effector.cpp.o] Error 1
+[2.955s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/moveit_visual_tools.dir/all] Error 2
+[2.955s] gmake: *** [Makefile:146: all] Error 2
+[3.294s] Invoked command in '/home/ddq2/interbotix_ws/build/moveit_visual_tools' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ddq2/interbotix_ws/install/image_projector:/home/ddq2/interbotix_ws/install/interbotix_xs_modules:/home/ddq2/interbotix_ws/install/interbotix_xs_sdk:/home/ddq2/interbotix_ws/install/interbotix_perception_modules:/home/ddq2/interbotix_ws/install/interbotix_perception_pipelines:/home/ddq2/interbotix_ws/install/interbotix_common_modules:/home/ddq2/realsense_ws/install/detection_visualizer:/home/ddq2/realsense_ws/install/distance_calculation:/opt/ros/humble _=/usr/bin/env /home/ddq2/.local/bin/cmake --build /home/ddq2/interbotix_ws/build/moveit_visual_tools -- -j16 -l16

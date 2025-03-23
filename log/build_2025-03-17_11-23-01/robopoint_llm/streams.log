@@ -1,0 +1,142 @@
+[0.756s] Invoking command in '/home/ddq2/interbotix_ws/src/robopoint_llm': LD_LIBRARY_PATH=/home/ddq2/interbotix_ws/install/robopoint_interfaces/lib:/usr/local/cuda-12.4/lib64:/home/ddq2/interbotix_ws/install/moveit_visual_tools/lib:/home/ddq2/interbotix_ws/install/interbotix_xs_rviz/lib:/home/ddq2/interbotix_ws/install/interbotix_xs_ros_control/lib:/home/ddq2/interbotix_ws/install/interbotix_xs_msgs/lib:/home/ddq2/interbotix_ws/install/interbotix_xs_driver/lib:/home/ddq2/interbotix_ws/install/interbotix_tf_tools/lib:/home/ddq2/interbotix_ws/install/interbotix_perception_msgs/lib:/home/ddq2/interbotix_ws/install/interbotix_moveit_interface_msgs/lib:/home/ddq2/interbotix_ws/install/dynamixel_workbench_toolbox/lib:/home/ddq2/realsense_ws/install/vision_msgs/lib:/home/ddq2/apriltag_ws/install/apriltag_ros/lib:/usr/local/cuda-12.4/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ddq2/interbotix_ws/build/robopoint_llm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robopoint_llm build --build-base /home/ddq2/interbotix_ws/build/robopoint_llm/build install --record /home/ddq2/interbotix_ws/build/robopoint_llm/install.log --single-version-externally-managed install_data
+[0.969s] running egg_info
+[0.969s] creating ../../build/robopoint_llm/robopoint_llm.egg-info
+[0.983s] writing ../../build/robopoint_llm/robopoint_llm.egg-info/PKG-INFO
+[0.983s] writing dependency_links to ../../build/robopoint_llm/robopoint_llm.egg-info/dependency_links.txt
+[0.984s] writing entry points to ../../build/robopoint_llm/robopoint_llm.egg-info/entry_points.txt
+[0.984s] writing requirements to ../../build/robopoint_llm/robopoint_llm.egg-info/requires.txt
+[0.984s] writing top-level names to ../../build/robopoint_llm/robopoint_llm.egg-info/top_level.txt
+[0.984s] writing manifest file '../../build/robopoint_llm/robopoint_llm.egg-info/SOURCES.txt'
+[1.014s] reading manifest file '../../build/robopoint_llm/robopoint_llm.egg-info/SOURCES.txt'
+[1.014s] writing manifest file '../../build/robopoint_llm/robopoint_llm.egg-info/SOURCES.txt'
+[1.015s] running build
+[1.015s] running build_py
+[1.015s] creating /home/ddq2/interbotix_ws/build/robopoint_llm/build
+[1.015s] creating /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib
+[1.015s] creating /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm
+[1.015s] copying robopoint_llm/__init__.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm
+[1.015s] copying robopoint_llm/query.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm
+[1.015s] creating /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint
+[1.015s] copying robopoint_llm/robopoint/__init__.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint
+[1.016s] copying robopoint_llm/robopoint/conversation.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint
+[1.016s] copying robopoint_llm/robopoint/constants.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint
+[1.016s] copying robopoint_llm/robopoint/utils.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint
+[1.016s] copying robopoint_llm/robopoint/mm_utils.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint
+[1.016s] copying robopoint_llm/robopoint/run_llm_service.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint
+[1.016s] copying robopoint_llm/robopoint/run_llm.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint
+[1.016s] creating /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/model
+[1.016s] copying robopoint_llm/robopoint/model/__init__.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/model
+[1.016s] copying robopoint_llm/robopoint/model/utils.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/model
+[1.016s] copying robopoint_llm/robopoint/model/llava_arch.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/model
+[1.016s] copying robopoint_llm/robopoint/model/apply_delta.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/model
+[1.016s] copying robopoint_llm/robopoint/model/builder.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/model
+[1.016s] copying robopoint_llm/robopoint/model/consolidate.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/model
+[1.017s] copying robopoint_llm/robopoint/model/make_delta.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/model
+[1.017s] creating /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/serve
+[1.017s] copying robopoint_llm/robopoint/serve/__init__.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/serve
+[1.017s] copying robopoint_llm/robopoint/serve/register_worker.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/serve
+[1.017s] copying robopoint_llm/robopoint/serve/test_message.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/serve
+[1.017s] copying robopoint_llm/robopoint/serve/sglang_worker.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/serve
+[1.017s] copying robopoint_llm/robopoint/serve/model_worker.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/serve
+[1.017s] copying robopoint_llm/robopoint/serve/controller.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/serve
+[1.017s] copying robopoint_llm/robopoint/serve/gradio_web_server.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/serve
+[1.017s] copying robopoint_llm/robopoint/serve/cli.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/serve
+[1.017s] creating /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/model/language_model
+[1.017s] copying robopoint_llm/robopoint/model/language_model/llava_llama.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/model/language_model
+[1.018s] copying robopoint_llm/robopoint/model/language_model/__init__.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/model/language_model
+[1.018s] copying robopoint_llm/robopoint/model/language_model/llava_mpt.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/model/language_model
+[1.018s] copying robopoint_llm/robopoint/model/language_model/llava_mistral.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/model/language_model
+[1.018s] creating /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/model/multimodal_encoder
+[1.018s] copying robopoint_llm/robopoint/model/multimodal_encoder/__init__.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/model/multimodal_encoder
+[1.018s] copying robopoint_llm/robopoint/model/multimodal_encoder/builder.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/model/multimodal_encoder
+[1.018s] copying robopoint_llm/robopoint/model/multimodal_encoder/clip_encoder.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/model/multimodal_encoder
+[1.018s] creating /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/model/multimodal_projector
+[1.018s] copying robopoint_llm/robopoint/model/multimodal_projector/__init__.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/model/multimodal_projector
+[1.018s] copying robopoint_llm/robopoint/model/multimodal_projector/builder.py -> /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/model/multimodal_projector
+[1.019s] running install
+[1.023s] running install_lib
+[1.037s] creating /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm
+[1.037s] copying /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/__init__.py -> /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm
+[1.037s] creating /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint
+[1.037s] copying /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/__init__.py -> /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint
+[1.037s] copying /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/conversation.py -> /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint
+[1.037s] creating /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/model
+[1.037s] copying /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/model/__init__.py -> /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/model
+[1.038s] creating /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/model/language_model
+[1.038s] copying /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/model/language_model/llava_llama.py -> /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/model/language_model
+[1.038s] copying /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/model/language_model/__init__.py -> /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/model/language_model
+[1.038s] copying /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/model/language_model/llava_mpt.py -> /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/model/language_model
+[1.038s] copying /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/model/language_model/llava_mistral.py -> /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/model/language_model
+[1.038s] copying /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/model/utils.py -> /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/model
+[1.038s] copying /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/model/llava_arch.py -> /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/model
+[1.038s] copying /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/model/apply_delta.py -> /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/model
+[1.038s] creating /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/model/multimodal_encoder
+[1.038s] copying /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/model/multimodal_encoder/__init__.py -> /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/model/multimodal_encoder
+[1.038s] copying /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/model/multimodal_encoder/builder.py -> /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/model/multimodal_encoder
+[1.038s] copying /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/model/multimodal_encoder/clip_encoder.py -> /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/model/multimodal_encoder
+[1.038s] copying /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/model/builder.py -> /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/model
+[1.038s] copying /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/model/consolidate.py -> /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/model
+[1.038s] creating /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/model/multimodal_projector
+[1.038s] copying /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/model/multimodal_projector/__init__.py -> /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/model/multimodal_projector
+[1.038s] copying /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/model/multimodal_projector/builder.py -> /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/model/multimodal_projector
+[1.038s] copying /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/model/make_delta.py -> /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/model
+[1.039s] copying /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/constants.py -> /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint
+[1.039s] copying /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/utils.py -> /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint
+[1.039s] copying /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/mm_utils.py -> /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint
+[1.039s] copying /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/run_llm_service.py -> /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint
+[1.039s] creating /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/serve
+[1.039s] copying /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/serve/__init__.py -> /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/serve
+[1.039s] copying /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/serve/register_worker.py -> /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/serve
+[1.039s] copying /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/serve/test_message.py -> /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/serve
+[1.039s] copying /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/serve/sglang_worker.py -> /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/serve
+[1.039s] copying /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/serve/model_worker.py -> /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/serve
+[1.039s] copying /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/serve/controller.py -> /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/serve
+[1.039s] copying /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/serve/gradio_web_server.py -> /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/serve
+[1.039s] copying /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/serve/cli.py -> /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/serve
+[1.039s] copying /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/robopoint/run_llm.py -> /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint
+[1.039s] copying /home/ddq2/interbotix_ws/build/robopoint_llm/build/lib/robopoint_llm/query.py -> /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm
+[1.040s] byte-compiling /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/__init__.py to __init__.cpython-310.pyc
+[1.040s] byte-compiling /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/__init__.py to __init__.cpython-310.pyc
+[1.040s] byte-compiling /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/conversation.py to conversation.cpython-310.pyc
+[1.042s] byte-compiling /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/model/__init__.py to __init__.cpython-310.pyc
+[1.042s] byte-compiling /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/model/language_model/llava_llama.py to llava_llama.cpython-310.pyc
+[1.042s] byte-compiling /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/model/language_model/__init__.py to __init__.cpython-310.pyc
+[1.042s] byte-compiling /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/model/language_model/llava_mpt.py to llava_mpt.cpython-310.pyc
+[1.043s] byte-compiling /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/model/language_model/llava_mistral.py to llava_mistral.cpython-310.pyc
+[1.043s] byte-compiling /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/model/utils.py to utils.cpython-310.pyc
+[1.044s] byte-compiling /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/model/llava_arch.py to llava_arch.cpython-310.pyc
+[1.045s] byte-compiling /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/model/apply_delta.py to apply_delta.cpython-310.pyc
+[1.046s] byte-compiling /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/model/multimodal_encoder/__init__.py to __init__.cpython-310.pyc
+[1.046s] byte-compiling /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/model/multimodal_encoder/builder.py to builder.cpython-310.pyc
+[1.046s] byte-compiling /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/model/multimodal_encoder/clip_encoder.py to clip_encoder.cpython-310.pyc
+[1.047s] byte-compiling /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/model/builder.py to builder.cpython-310.pyc
+[1.047s] byte-compiling /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/model/consolidate.py to consolidate.cpython-310.pyc
+[1.048s] byte-compiling /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/model/multimodal_projector/__init__.py to __init__.cpython-310.pyc
+[1.048s] byte-compiling /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/model/multimodal_projector/builder.py to builder.cpython-310.pyc
+[1.048s] byte-compiling /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/model/make_delta.py to make_delta.cpython-310.pyc
+[1.048s] byte-compiling /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/constants.py to constants.cpython-310.pyc
+[1.048s] byte-compiling /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/utils.py to utils.cpython-310.pyc
+[1.049s] byte-compiling /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/mm_utils.py to mm_utils.cpython-310.pyc
+[1.050s] byte-compiling /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/run_llm_service.py to run_llm_service.cpython-310.pyc
+[1.051s] byte-compiling /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/serve/__init__.py to __init__.cpython-310.pyc
+[1.051s] byte-compiling /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/serve/register_worker.py to register_worker.cpython-310.pyc
+[1.051s] byte-compiling /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/serve/test_message.py to test_message.cpython-310.pyc
+[1.051s] byte-compiling /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/serve/sglang_worker.py to sglang_worker.cpython-310.pyc
+[1.052s] byte-compiling /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/serve/model_worker.py to model_worker.cpython-310.pyc
+[1.053s] byte-compiling /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/serve/controller.py to controller.cpython-310.pyc
+[1.054s] byte-compiling /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/serve/gradio_web_server.py to gradio_web_server.cpython-310.pyc
+[1.057s] byte-compiling /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/serve/cli.py to cli.cpython-310.pyc
+[1.057s] byte-compiling /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/robopoint/run_llm.py to run_llm.cpython-310.pyc
+[1.058s] byte-compiling /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm/query.py to query.cpython-310.pyc
+[1.059s] running install_data
+[1.059s] creating /home/ddq2/interbotix_ws/install/robopoint_llm/share/ament_index
+[1.059s] creating /home/ddq2/interbotix_ws/install/robopoint_llm/share/ament_index/resource_index
+[1.059s] creating /home/ddq2/interbotix_ws/install/robopoint_llm/share/ament_index/resource_index/packages
+[1.059s] copying resource/robopoint_llm -> /home/ddq2/interbotix_ws/install/robopoint_llm/share/ament_index/resource_index/packages
+[1.059s] copying package.xml -> /home/ddq2/interbotix_ws/install/robopoint_llm/share/robopoint_llm
+[1.059s] running install_egg_info
+[1.074s] Copying ../../build/robopoint_llm/robopoint_llm.egg-info to /home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages/robopoint_llm-0.0.0-py3.10.egg-info
+[1.075s] running install_scripts
+[1.203s] Installing query script to /home/ddq2/interbotix_ws/install/robopoint_llm/lib/robopoint_llm
+[1.204s] writing list of installed files to '/home/ddq2/interbotix_ws/build/robopoint_llm/install.log'
+[1.226s] Invoked command in '/home/ddq2/interbotix_ws/src/robopoint_llm' returned '0': LD_LIBRARY_PATH=/home/ddq2/interbotix_ws/install/robopoint_interfaces/lib:/usr/local/cuda-12.4/lib64:/home/ddq2/interbotix_ws/install/moveit_visual_tools/lib:/home/ddq2/interbotix_ws/install/interbotix_xs_rviz/lib:/home/ddq2/interbotix_ws/install/interbotix_xs_ros_control/lib:/home/ddq2/interbotix_ws/install/interbotix_xs_msgs/lib:/home/ddq2/interbotix_ws/install/interbotix_xs_driver/lib:/home/ddq2/interbotix_ws/install/interbotix_tf_tools/lib:/home/ddq2/interbotix_ws/install/interbotix_perception_msgs/lib:/home/ddq2/interbotix_ws/install/interbotix_moveit_interface_msgs/lib:/home/ddq2/interbotix_ws/install/dynamixel_workbench_toolbox/lib:/home/ddq2/realsense_ws/install/vision_msgs/lib:/home/ddq2/apriltag_ws/install/apriltag_ros/lib:/usr/local/cuda-12.4/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ddq2/interbotix_ws/build/robopoint_llm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ddq2/interbotix_ws/install/robopoint_llm/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robopoint_llm build --build-base /home/ddq2/interbotix_ws/build/robopoint_llm/build install --record /home/ddq2/interbotix_ws/build/robopoint_llm/install.log --single-version-externally-managed install_data

@@ -1,0 +1,27 @@
+gmake[2]: *** No rule to make target '/opt/ros/humble/lib/libmoveit_constraint_sampler_manager_loader.so.2.5.7', needed by 'libmoveit_visual_tools.so'.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:40[m[K,
+                 from [01m[K/opt/ros/humble/include/moveit/robot_state/conversions.h:39[m[K,
+                 from [01m[K/home/ddq2/interbotix_ws/src/moveit_visual_tools/src/imarker_robot_state.cpp:37[m[K:
+[01m[K/opt/ros/humble/include/moveit/robot_model/robot_model.h:42:10:[m[K [01;31m[Kfatal error: [m[Ksrdfdom/model.h: No such file or directory
+   42 | #include [01;31m[K<srdfdom/model.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/moveit_visual_tools.dir/build.make:90: CMakeFiles/moveit_visual_tools.dir/src/imarker_robot_state.cpp.o] Error 1
+In file included from [01m[K/home/ddq2/interbotix_ws/src/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h:38[m[K,
+                 from [01m[K/home/ddq2/interbotix_ws/src/moveit_visual_tools/src/moveit_visual_tools.cpp:32[m[K:
+[01m[K/opt/ros/humble/include/rviz_visual_tools/rviz_visual_tools.hpp:46:10:[m[K [01;31m[Kfatal error: [m[Keigen_stl_containers/eigen_stl_vector_container.h: No such file or directory
+   46 | #include [01;31m[K<eigen_stl_containers/eigen_stl_vector_container.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/moveit_visual_tools.dir/build.make:76: CMakeFiles/moveit_visual_tools.dir/src/moveit_visual_tools.cpp.o] Error 1
+In file included from [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:40[m[K,
+                 from [01m[K/home/ddq2/interbotix_ws/src/moveit_visual_tools/include/moveit_visual_tools/imarker_robot_state.h:45[m[K,
+                 from [01m[K/home/ddq2/interbotix_ws/src/moveit_visual_tools/src/imarker_end_effector.cpp:47[m[K:
+[01m[K/opt/ros/humble/include/moveit/robot_model/robot_model.h:42:10:[m[K [01;31m[Kfatal error: [m[Ksrdfdom/model.h: No such file or directory
+   42 | #include [01;31m[K<srdfdom/model.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/moveit_visual_tools.dir/build.make:104: CMakeFiles/moveit_visual_tools.dir/src/imarker_end_effector.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/moveit_visual_tools.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

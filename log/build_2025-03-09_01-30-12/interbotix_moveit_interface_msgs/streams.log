@@ -1,0 +1,39 @@
+[0.413s] Invoking command in '/home/ddq2/interbotix_ws/build/interbotix_moveit_interface_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ddq2/interbotix_ws/install/image_projector:/home/ddq2/interbotix_ws/install/interbotix_xs_modules:/home/ddq2/interbotix_ws/install/interbotix_xs_sdk:/home/ddq2/interbotix_ws/install/interbotix_perception_modules:/home/ddq2/interbotix_ws/install/interbotix_perception_pipelines:/home/ddq2/interbotix_ws/install/interbotix_common_modules:/home/ddq2/realsense_ws/install/detection_visualizer:/home/ddq2/realsense_ws/install/distance_calculation:/opt/ros/humble _=/usr/bin/env /home/ddq2/.local/bin/cmake --build /home/ddq2/interbotix_ws/build/interbotix_moveit_interface_msgs -- -j16 -l16
+[0.722s] [  3%] Built target interbotix_moveit_interface_msgs__cpp
+[0.761s] [  3%] Built target ament_cmake_python_copy_interbotix_moveit_interface_msgs
+[0.772s] [ 12%] Built target interbotix_moveit_interface_msgs__rosidl_generator_c
+[0.778s] [ 16%] [32mBuilding CXX object CMakeFiles/interbotix_moveit_interface_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interbotix_moveit_interface_msgs/srv/detail/dds_fastrtps/move_it_plan__type_support.cpp.o[0m
+[0.778s] [ 19%] [32mBuilding CXX object CMakeFiles/interbotix_moveit_interface_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interbotix_moveit_interface_msgs/srv/move_it_plan__type_support.cpp.o[0m
+[0.790s] [ 22%] [32mBuilding CXX object CMakeFiles/interbotix_moveit_interface_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interbotix_moveit_interface_msgs/srv/detail/move_it_plan__type_support.cpp.o[0m
+[0.836s] [ 32%] Built target interbotix_moveit_interface_msgs__rosidl_typesupport_c
+[0.836s] [ 41%] Built target interbotix_moveit_interface_msgs__rosidl_typesupport_introspection_c
+[0.836s] [ 45%] [32mBuilding CXX object CMakeFiles/interbotix_moveit_interface_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interbotix_moveit_interface_msgs/srv/detail/move_it_plan__type_support_c.cpp.o[0m
+[1.652s] [ 48%] [32m[1mLinking CXX shared library libinterbotix_moveit_interface_msgs__rosidl_typesupport_cpp.so[0m
+[1.775s] [ 51%] Built target interbotix_moveit_interface_msgs__rosidl_typesupport_cpp
+[1.804s] running egg_info
+[1.840s] [ 54%] [32m[1mLinking CXX shared library libinterbotix_moveit_interface_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[1.890s] writing interbotix_moveit_interface_msgs.egg-info/PKG-INFO
+[1.891s] writing dependency_links to interbotix_moveit_interface_msgs.egg-info/dependency_links.txt
+[1.891s] writing top-level names to interbotix_moveit_interface_msgs.egg-info/top_level.txt
+[1.918s] [ 58%] [32m[1mLinking CXX shared library libinterbotix_moveit_interface_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[1.955s] [ 61%] Built target interbotix_moveit_interface_msgs__rosidl_typesupport_introspection_cpp
+[2.055s] [ 64%] Built target interbotix_moveit_interface_msgs__rosidl_typesupport_fastrtps_c
+[2.072s] [ 67%] [32m[1mLinking CXX shared library libinterbotix_moveit_interface_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.126s] reading manifest file 'interbotix_moveit_interface_msgs.egg-info/SOURCES.txt'
+[2.126s] writing manifest file 'interbotix_moveit_interface_msgs.egg-info/SOURCES.txt'
+[2.219s] [ 67%] Built target ament_cmake_python_build_interbotix_moveit_interface_msgs_egg
+[2.318s] [ 70%] Built target interbotix_moveit_interface_msgs__rosidl_typesupport_fastrtps_cpp
+[2.350s] [ 70%] Built target interbotix_moveit_interface_msgs
+[2.396s] [ 74%] Built target interbotix_moveit_interface_msgs__py
+[2.433s] [ 77%] [32mBuilding C object CMakeFiles/interbotix_moveit_interface_msgs__rosidl_generator_py.dir/rosidl_generator_py/interbotix_moveit_interface_msgs/srv/_move_it_plan_s.c.o[0m
+[2.632s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/interbotix_moveit_interface_msgs/libinterbotix_moveit_interface_msgs__rosidl_generator_py.so[0m
+[2.717s] [ 80%] Built target interbotix_moveit_interface_msgs__rosidl_generator_py
+[2.755s] [ 83%] [32mBuilding C object CMakeFiles/interbotix_moveit_interface_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interbotix_moveit_interface_msgs/_interbotix_moveit_interface_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.756s] [ 87%] [32mBuilding C object CMakeFiles/interbotix_moveit_interface_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interbotix_moveit_interface_msgs/_interbotix_moveit_interface_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[2.756s] [ 90%] [32mBuilding C object CMakeFiles/interbotix_moveit_interface_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interbotix_moveit_interface_msgs/_interbotix_moveit_interface_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.910s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.947s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.968s] [100%] [32m[1mLinking C shared library rosidl_generator_py/interbotix_moveit_interface_msgs/interbotix_moveit_interface_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.975s] [100%] Built target interbotix_moveit_interface_msgs__rosidl_typesupport_c__pyext
+[2.998s] [100%] Built target interbotix_moveit_interface_msgs__rosidl_typesupport_introspection_c__pyext
+[3.008s] [100%] Built target interbotix_moveit_interface_msgs__rosidl_typesupport_fastrtps_c__pyext

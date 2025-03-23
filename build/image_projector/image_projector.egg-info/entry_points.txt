@@ -1,0 +1,2 @@
+[console_scripts]
+service = image_projector.image_projector:main
