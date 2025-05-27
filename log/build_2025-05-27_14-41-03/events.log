@@ -1,0 +1,14 @@
+[0.000000] (-) TimerEvent: {}
+[0.000159] (robopoint_interfaces) JobQueued: {'identifier': 'robopoint_interfaces', 'dependencies': OrderedDict()}
+[0.000301] (image_projector) JobQueued: {'identifier': 'image_projector', 'dependencies': OrderedDict({'robopoint_interfaces': '/home/evas/Robopoint/install/robopoint_interfaces'})}
+[0.000317] (py_movearm) JobQueued: {'identifier': 'py_movearm', 'dependencies': OrderedDict({'robopoint_interfaces': '/home/evas/Robopoint/install/robopoint_interfaces'})}
+[0.000328] (robopoint_llm) JobQueued: {'identifier': 'robopoint_llm', 'dependencies': OrderedDict({'robopoint_interfaces': '/home/evas/Robopoint/install/robopoint_interfaces'})}
+[0.000338] (robopoint_interfaces) JobStarted: {'identifier': 'robopoint_interfaces'}
+[0.014880] (robopoint_interfaces) JobProgress: {'identifier': 'robopoint_interfaces', 'progress': 'cmake'}
+[0.015158] (robopoint_interfaces) JobProgress: {'identifier': 'robopoint_interfaces', 'progress': 'build'}
+[0.015910] (robopoint_interfaces) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 59, in build\n    rc = await extension.build(\n         ^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 103, in build\n    rc = await self._build(\n         ^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 215, in _build\n    raise RuntimeError("Could not find \'cmake\' executable")\nRuntimeError: Could not find \'cmake\' executable\n'}
+[0.016166] (robopoint_interfaces) JobEnded: {'identifier': 'robopoint_interfaces', 'rc': 1}
+[0.026244] (image_projector) JobSkipped: {'identifier': 'image_projector'}
+[0.026279] (py_movearm) JobSkipped: {'identifier': 'py_movearm'}
+[0.026289] (robopoint_llm) JobSkipped: {'identifier': 'robopoint_llm'}
+[0.026298] (-) EventReactorShutdown: {}
